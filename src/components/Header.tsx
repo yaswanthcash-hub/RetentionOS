@@ -37,10 +37,7 @@ export default function Header({ onBookAudit }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
-            <img src="/Group 1430105540 copy.png" alt="RetentionOS" className="h-10 w-10" />
-            <span className="text-2xl font-heading font-bold text-gray-900">
-              RetentionOS
-            </span>
+            <img src="/Group 1430105540.png" alt="RetentionOS" className="h-12" />
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
