@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Twitter, Instagram, Facebook } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -45,17 +45,21 @@ export default function Footer() {
               Turn first-time buyers into lifelong customers with retention marketing that drives repeat revenue for Indian D2C brands.
             </p>
             <div className="space-y-3">
-              <a href="mailto:hello@retentionos.com" className="flex items-center gap-2 hover:text-primary-500 transition-colors">
+              <a href="mailto:hi@retentionos.io" className="flex items-center gap-2 hover:text-primary-500 transition-colors">
                 <Mail className="w-4 h-4" />
-                <span>hello@retentionos.com</span>
+                <span>hi@retentionos.io</span>
               </a>
-              <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-primary-500 transition-colors">
+              <a href="tel:+919505551760" className="flex items-center gap-2 hover:text-primary-500 transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>+91 98765 43210</span>
+                <span>+91 95055 51760</span>
+              </a>
+              <a href="tel:+919666616312" className="flex items-center gap-2 hover:text-primary-500 transition-colors">
+                <Phone className="w-4 h-4" />
+                <span>+91 96666 16312</span>
               </a>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>Mumbai, India</span>
+                <span>Bengaluru, India</span>
               </div>
             </div>
           </div>
@@ -100,36 +104,12 @@ export default function Footer() {
 
             <div className="flex items-center gap-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/retentionos-io"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors"
-              >
-                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>

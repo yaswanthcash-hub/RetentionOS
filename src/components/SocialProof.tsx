@@ -4,34 +4,25 @@ export default function SocialProof() {
   const testimonials = [
     {
       name: 'Priya Sharma',
-      role: 'Founder, Ayurvedic Beauty Co.',
+      role: 'Founder, Beauty Brand',
       content: 'We went from 12% to 38% repeat purchase rate in just 3 months. The WhatsApp flows alone recovered ₹2.4 lakhs in abandoned carts last month.',
       revenue: '₹2.4L recovered',
       rating: 5
     },
     {
       name: 'Rahul Mehta',
-      role: 'CMO, Fashion Forward',
+      role: 'CMO, Fashion Brand',
       content: 'Finally, a retention platform that understands the Indian market. The SMS campaigns are DLT compliant and the support team is incredible.',
       revenue: '42% retention lift',
       rating: 5
     },
     {
       name: 'Anjali Desai',
-      role: 'Head of Growth, Wellness Hub',
+      role: 'Head of Growth, Wellness Brand',
       content: 'The automation flows are pure gold. Set them up once and they run 24/7. Our customer lifetime value has doubled since we started.',
       revenue: '2x LTV increase',
       rating: 5
     }
-  ];
-
-  const brands = [
-    'Mamaearth',
-    'The Souled Store',
-    'Bewakoof',
-    'Boat Lifestyle',
-    'Sugar Cosmetics',
-    'Lenskart'
   ];
 
   return (
@@ -42,7 +33,7 @@ export default function SocialProof() {
             Loved by India's fastest-growing brands
           </h2>
           <p className="text-xl text-gray-600">
-            Join 500+ D2C brands using retention marketing to drive repeat revenue
+            Join 17+ D2C brands using retention marketing to drive repeat revenue
           </p>
         </div>
 
@@ -79,19 +70,6 @@ export default function SocialProof() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="bg-white rounded-2xl p-12 shadow-sm">
-          <p className="text-center text-sm text-gray-500 mb-8 font-medium">
-            TRUSTED BY LEADING INDIAN D2C BRANDS
-          </p>
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-8 items-center justify-items-center opacity-50 hover:opacity-75 transition-opacity">
-            {brands.map((brand, index) => (
-              <div key={index} className="text-xl font-bold text-gray-400">
-                {brand}
-              </div>
-            ))}
-          </div>
         </div>
 
         <div className="mt-16 grid md:grid-cols-3 gap-8">

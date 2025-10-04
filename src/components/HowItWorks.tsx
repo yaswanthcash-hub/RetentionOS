@@ -6,13 +6,13 @@ export default function HowItWorks() {
       icon: UserPlus,
       title: 'Book Free Audit',
       description: 'Share your current retention metrics and challenges. We analyze your customer data and identify quick wins.',
-      duration: '15 min call',
+      duration: 'Review in 15 mins',
       color: 'from-blue-500 to-blue-600'
     },
     {
       icon: Settings,
       title: 'Custom Setup',
-      description: 'Our team builds tailored automation flows for your brand. We handle technical integration with your store.',
+      description: 'Our team builds tailored automation flows for your brand. We coordinate technical integration with your store.',
       duration: '2-3 days',
       color: 'from-purple-500 to-purple-600'
     },
@@ -94,7 +94,7 @@ export default function HowItWorks() {
           </div>
 
           <div className="p-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl text-white">
-            <div className="text-4xl font-heading font-bold mb-2">15 min</div>
+            <div className="text-4xl font-heading font-bold mb-2">60 min</div>
             <div className="text-blue-100 mb-4">That's all it takes to get started</div>
             <p className="text-blue-50 text-sm">
               No complex onboarding. No lengthy training. Start driving revenue today.

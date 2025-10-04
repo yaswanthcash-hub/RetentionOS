@@ -51,7 +51,7 @@ export default function CaseStudies() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
-            Real results from real brands
+            Case study of Real results from real brands
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             See how Indian D2C brands are using retention marketing to drive predictable, sustainable growth
@@ -130,10 +130,12 @@ export default function CaseStudies() {
             Want to see similar results for your brand?
           </p>
           <a
-            href="#pricing"
+            href="https://calendly.com/hi-retentionos/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-gray-900 text-white font-semibold rounded-full hover:bg-gray-800 transition-all duration-300 hover:scale-105"
           >
-            View Our Plans
+            Book Free Audit
           </a>
         </div>
       </div>

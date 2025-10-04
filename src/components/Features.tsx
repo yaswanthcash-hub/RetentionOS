@@ -86,19 +86,20 @@ export default function Features() {
           ))}
         </div>
 
-        <div className="mt-16 p-8 bg-gradient-to-br from-primary-50 to-gray-50 rounded-2xl border border-primary-100">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div>
-              <h3 className="text-2xl font-heading font-bold text-gray-900 mb-2">
-                Start with pre-built templates
-              </h3>
-              <p className="text-gray-600">
-                50+ proven automation flows ready to deploy. Customize for your brand in minutes.
-              </p>
-            </div>
-            <button className="px-6 py-3 bg-gray-900 text-white font-semibold rounded-full hover:bg-gray-800 transition-colors whitespace-nowrap">
-              Explore Templates
-            </button>
+        <div className="mt-16 grid md:grid-cols-2 gap-8">
+          <div className="p-8 bg-primary-500 rounded-2xl text-black">
+            <div className="text-4xl font-heading font-bold mb-2">₹50Cr+</div>
+            <div className="text-black/80 mb-4">Revenue Generated</div>
+            <p className="text-black/70 text-sm">
+              Proven retention marketing strategies driving measurable growth
+            </p>
+          </div>
+          <div className="p-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl text-white">
+            <div className="text-4xl font-heading font-bold mb-2">17+</div>
+            <div className="text-blue-100 mb-4">Brands Served</div>
+            <p className="text-blue-50 text-sm">
+              Trusted by leading businesses for retention excellence
+            </p>
           </div>
         </div>
       </div>

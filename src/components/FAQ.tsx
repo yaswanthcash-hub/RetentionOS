@@ -11,7 +11,7 @@ export default function FAQ() {
     },
     {
       question: 'Do I need technical expertise to use your platform?',
-      answer: 'Not at all. Our team handles all the technical setup, automation building, and ongoing optimization. You simply approve campaigns and watch the results roll in. We provide a simple dashboard to track performance.',
+      answer: 'Not at all. Our team coordinates all the technical setup, automation building, and ongoing optimization. You simply approve campaigns and watch the results roll in. We provide a simple dashboard to track performance.',
     },
     {
       question: 'What platforms do you integrate with?',
@@ -27,11 +27,7 @@ export default function FAQ() {
     },
     {
       question: 'Can I cancel anytime?',
-      answer: 'Yes, absolutely. There are no long-term contracts. You can cancel your subscription anytime with 30 days notice. We also offer a 90-day money-back guarantee if we don\'t deliver the promised results.',
-    },
-    {
-      question: 'How is pricing calculated?',
-      answer: 'Pricing is based on your monthly revenue and contact list size. We offer three tiers: Starter (₹25K/mo), Growth (₹65K/mo), and Enterprise (custom). All plans include setup, automation, support, and regular optimization.',
+      answer: 'Yes, absolutely. There are no long-term contracts. You can cancel your subscription anytime with 30 days notice.',
     },
     {
       question: 'Do you provide support and training?',
@@ -105,16 +101,16 @@ export default function FAQ() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="mailto:hello@retentionos.com"
+              href="mailto:hi@retentionos.io"
               className="px-6 py-3 bg-gray-100 text-gray-900 rounded-full hover:bg-gray-200 transition-colors font-semibold"
             >
               Email Us
             </a>
             <a
-              href="tel:+919876543210"
+              href="tel:+919505551760"
               className="px-6 py-3 bg-primary-500 text-black rounded-full hover:bg-primary-600 transition-colors font-semibold"
             >
-              Call +91 98765 43210
+              Call +91 95055 51760
             </a>
           </div>
         </div>

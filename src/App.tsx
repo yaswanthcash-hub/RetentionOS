@@ -5,7 +5,6 @@ import Features from './components/Features';
 import SocialProof from './components/SocialProof';
 import HowItWorks from './components/HowItWorks';
 import CaseStudies from './components/CaseStudies';
-import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
@@ -25,7 +24,6 @@ function App() {
       <SocialProof />
       <HowItWorks />
       <CaseStudies />
-      <Pricing onBookAudit={openModal} />
       <FAQ />
       <FinalCTA onBookAudit={openModal} />
       <Footer />
