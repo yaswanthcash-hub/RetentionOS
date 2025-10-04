@@ -4,21 +4,21 @@ export default function SocialProof() {
   const testimonials = [
     {
       name: 'Priya Sharma',
-      role: 'Founder, Beauty Brand',
+      role: 'Founder',
       content: 'We went from 12% to 38% repeat purchase rate in just 3 months. The WhatsApp flows alone recovered ₹2.4 lakhs in abandoned carts last month.',
       revenue: '₹2.4L recovered',
       rating: 5
     },
     {
       name: 'Rahul Mehta',
-      role: 'CMO, Fashion Brand',
+      role: 'CMO,
       content: 'Finally, a retention platform that understands the Indian market. The SMS campaigns are DLT compliant and the support team is incredible.',
       revenue: '42% retention lift',
       rating: 5
     },
     {
       name: 'Anjali Desai',
-      role: 'Head of Growth, Wellness Brand',
+      role: 'Head of Growth',
       content: 'The automation flows are pure gold. Set them up once and they run 24/7. Our customer lifetime value has doubled since we started.',
       revenue: '2x LTV increase',
       rating: 5
