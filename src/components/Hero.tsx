@@ -12,7 +12,7 @@ export default function Hero({ onBookAudit }: HeroProps) {
       <div className="relative max-w-7xl mx-auto px-6 py-20 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 text-primary-900 rounded-full text-sm font-semibold mb-8 animate-fade-in">
           <span className="w-2 h-2 bg-primary-700 rounded-full animate-pulse"></span>
-          Trusted by 500+ Indian D2C brands
+          Built Retention Systems for Billion-Dollar Businesses
         </div>
 
         <h1 className="text-5xl md:text-7xl font-heading font-bold text-gray-900 mb-6 leading-tight animate-slide-up">
