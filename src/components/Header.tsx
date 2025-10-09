@@ -16,10 +16,15 @@ export default function Header() {
 
   const menuItems = [
     { label: 'Services', href: '#features' },
-    { label: 'Case Studies', href: '#case-studies' },
     { label: 'Testimonials', href: '#social-proof' },
+    { label: 'Case Studies', href: '#case-studies' },
     { label: 'FAQ', href: '#faq' },
   ];
+
+  const scrollToTop = (e: React.MouseEvent) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <header
@@ -31,9 +36,14 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-3">
+          <a
+            href="#top"
+            onClick={scrollToTop}
+            className="flex items-center gap-3 cursor-pointer"
+            aria-label="Scroll to top"
+          >
             <img src="/Group 1430105540.png" alt="RetentionOS" className="h-12" />
-          </div>
+          </a>
 
           <nav className="hidden md:flex items-center gap-8">
             {menuItems.map((item) => (
@@ -41,6 +51,10 @@ export default function Header() {
                 key={item.label}
                 href={item.href}
                 className="text-gray-700 hover:text-primary-600 transition-colors font-medium"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.querySelector(item.href)?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 {item.label}
               </a>
@@ -75,7 +89,11 @@ export default function Header() {
                 key={item.label}
                 href={item.href}
                 className="block text-gray-700 hover:text-primary-600 transition-colors font-medium py-2"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsMenuOpen(false);
+                  document.querySelector(item.href)?.scrollIntoView({ behavior: 'smooth' });
+                }}
               >
                 {item.label}
               </a>
