@@ -16,8 +16,9 @@ export default function Header() {
 
   const menuItems = [
     { label: 'Services', href: '#features' },
-    { label: 'Testimonials', href: '#social-proof' },
+    { label: 'How It Works', href: '#how-it-works' },
     { label: 'Case Studies', href: '#case-studies' },
+    { label: 'Pricing', href: '#pricing' },
     { label: 'FAQ', href: '#faq' },
   ];
 

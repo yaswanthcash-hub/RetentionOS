@@ -8,19 +8,19 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-6 py-20 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 text-primary-900 rounded-full text-sm font-semibold mb-8 animate-fade-in">
           <span className="w-2 h-2 bg-primary-700 rounded-full animate-pulse"></span>
-          Built Retention Systems for Billion-Dollar Businesses
+          Trusted by 17+ Leading Indian D2C Brands
         </div>
 
         <h1 className="text-5xl md:text-7xl font-heading font-bold text-gray-900 mb-6 leading-tight animate-slide-up">
-          Turn first-time buyers into{' '}
+          Stop Losing Money on{' '}
           <span className="text-primary-700">
-            lifelong customers
+            One-Time Customers
           </span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed animate-slide-up-delay">
-          Email, SMS & WhatsApp retention marketing that drives repeat revenue for Indian D2C brands.{' '}
-          <span className="font-semibold text-gray-900">No fluff. Just flows that convert.</span>
+          Build a retention engine that turns browsers into buyers, and buyers into brand advocates.{' '}
+          <span className="font-semibold text-gray-900">WhatsApp, Email & SMS that actually drives repeat revenue.</span>
         </p>
 
         <a
@@ -29,43 +29,43 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-3 px-8 py-4 bg-primary-500 text-black text-lg font-semibold rounded-full hover:bg-primary-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 animate-fade-in-up"
         >
-          Book Your Free Audit
+          Get Your Free Retention Audit
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </a>
 
-        <div className="mt-16 flex items-center justify-center gap-8 text-sm text-gray-500 animate-fade-in-delay">
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500 animate-fade-in-delay">
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span>No credit card required</span>
+            <span>No credit card</span>
           </div>
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span>Setup in 15 minutes</span>
+            <span>90-day guarantee</span>
           </div>
           <div className="flex items-center gap-2">
             <svg className="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
             </svg>
-            <span>Cancel anytime</span>
+            <span>ROI tracking included</span>
           </div>
         </div>
 
         <div className="mt-20 grid grid-cols-2 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-2">₹50Cr+</div>
-            <div className="text-sm text-gray-600">Revenue Generated</div>
+            <div className="text-sm text-gray-600">Revenue Unlocked</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">42%</div>
-            <div className="text-sm text-gray-600">Avg. Retention Lift</div>
+            <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">3.2x</div>
+            <div className="text-sm text-gray-600">Avg. LTV Increase</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">17+</div>
-            <div className="text-sm text-gray-600">Brands Served</div>
+            <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">94%</div>
+            <div className="text-sm text-gray-600">Client Retention</div>
           </div>
         </div>
       </div>

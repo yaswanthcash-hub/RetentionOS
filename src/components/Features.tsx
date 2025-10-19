@@ -4,45 +4,45 @@ export default function Features() {
   const features = [
     {
       icon: MessageSquare,
-      title: 'WhatsApp Marketing',
-      description: 'Connect with customers on their favorite platform. Automated flows, broadcasts, and 1-on-1 conversations that drive repeat purchases.',
-      stats: '78% open rate',
+      title: 'WhatsApp Marketing That Converts',
+      description: 'Stop letting Instagram DMs go unanswered. Automate conversations, send order updates, and run campaigns on the platform your customers actually check. From cart recovery to loyalty programs.',
+      stats: '5x vs email',
       color: 'from-green-500 to-green-600'
     },
     {
-      icon: Smartphone,
-      title: 'SMS Campaigns',
-      description: 'High-impact SMS marketing for order updates, abandoned cart recovery, and exclusive offers. DLT compliant and ready to deploy.',
-      stats: '94% read rate',
+      icon: Mail,
+      title: 'Email Flows That Print Money',
+      description: 'From welcome series to win-back campaigns, every email is designed to drive action—not just sit in an inbox. Beautiful templates, zero coding required. Average 8x ROI.',
+      stats: '8x ROI',
       color: 'from-blue-500 to-blue-600'
     },
     {
-      icon: Mail,
-      title: 'Email Automation',
-      description: 'Beautiful, conversion-optimized emails that land in the inbox. Welcome series, win-back campaigns, and personalized recommendations.',
-      stats: '32% conversion',
-      color: 'from-purple-500 to-purple-600'
+      icon: Smartphone,
+      title: 'SMS That Gets Read (And Clicked)',
+      description: 'High-urgency messages for flash sales, abandoned carts, and delivery updates. DLT-compliant, pre-approved templates, ready to send. Delivered in under 5 seconds.',
+      stats: '<5 sec delivery',
+      color: 'from-pink-500 to-rose-600'
     },
     {
       icon: Zap,
-      title: 'Smart Automation',
-      description: 'Set it and forget it. Pre-built flows for cart abandonment, post-purchase nurture, re-engagement, and VIP customer journeys.',
-      stats: '24/7 automated',
+      title: 'Set-and-Forget Automation',
+      description: 'Pre-built workflows for cart recovery, post-purchase nurture, VIP journeys, and re-engagement. Launch in minutes, earn revenue 24/7. No manual work required.',
+      stats: 'No manual work',
       color: 'from-yellow-500 to-orange-600'
     },
     {
       icon: Target,
-      title: 'Precision Segmentation',
-      description: 'Target the right customers with the right message. RFM analysis, behavioral triggers, and dynamic segments based on purchase history.',
-      stats: '3x relevance',
-      color: 'from-red-500 to-pink-600'
+      title: 'Segmentation That Actually Works',
+      description: 'RFM analysis, purchase behavior triggers, lifecycle stages. Send the right message to the right customer at the perfect time. 12+ pre-built segment types.',
+      stats: '12+ segments',
+      color: 'from-purple-500 to-indigo-600'
     },
     {
       icon: TrendingUp,
-      title: 'Revenue Attribution',
-      description: 'Know exactly what drives revenue. Real-time dashboards, channel attribution, and ROI tracking for every campaign and flow.',
-      stats: 'Full visibility',
-      color: 'from-indigo-500 to-indigo-600'
+      title: 'Revenue Dashboard (Finally)',
+      description: 'See which campaigns make money and which ones don\'t. Real-time attribution, channel performance, and ROI tracking in one clean dashboard with live data sync.',
+      stats: 'Live data',
+      color: 'from-cyan-500 to-teal-600'
     }
   ];
 
@@ -51,10 +51,10 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
-            Everything you need to retain customers
+            The Complete Retention Stack
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Powerful retention marketing tools built specifically for Indian D2C brands. No complex setup. No learning curve.
+            Everything you need to turn one-time buyers into repeat customers—without duct-taping together a dozen platforms.
           </p>
         </div>
 
@@ -86,19 +86,26 @@ export default function Features() {
           ))}
         </div>
 
-        <div className="mt-16 grid md:grid-cols-2 gap-8">
-          <div className="p-8 bg-primary-500 rounded-2xl text-black">
+        <div className="mt-16 grid md:grid-cols-3 gap-6">
+          <div className="p-8 bg-primary-500 rounded-2xl text-black hover:scale-105 transition-transform duration-300">
             <div className="text-4xl font-heading font-bold mb-2">₹50Cr+</div>
-            <div className="text-black/80 mb-4">Revenue Generated</div>
+            <div className="text-black/80 mb-2 font-semibold">Revenue Unlocked</div>
             <p className="text-black/70 text-sm">
-              Proven retention marketing strategies driving measurable growth
+              For our clients across industries
             </p>
           </div>
-          <div className="p-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl text-white">
-            <div className="text-4xl font-heading font-bold mb-2">17+</div>
-            <div className="text-blue-100 mb-4">Brands Served</div>
-            <p className="text-blue-50 text-sm">
-              Trusted by leading businesses for retention excellence
+          <div className="p-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl text-white hover:scale-105 transition-transform duration-300">
+            <div className="text-4xl font-heading font-bold mb-2">3.2x</div>
+            <div className="text-gray-100 mb-2 font-semibold">Average LTV Increase</div>
+            <p className="text-gray-300 text-sm">
+              In the first 90 days of partnership
+            </p>
+          </div>
+          <div className="p-8 bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl text-white hover:scale-105 transition-transform duration-300">
+            <div className="text-4xl font-heading font-bold mb-2">94%</div>
+            <div className="text-white/90 mb-2 font-semibold">Client Retention Rate</div>
+            <p className="text-white/70 text-sm">
+              We practice what we preach
             </p>
           </div>
         </div>

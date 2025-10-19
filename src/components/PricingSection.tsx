@@ -1,10 +1,6 @@
-import { Check, X } from 'lucide-react';
+import { Check, X, ArrowRight } from 'lucide-react';
 
-interface PricingProps {
-  onBookAudit: () => void;
-}
-
-export default function Pricing({ onBookAudit }: PricingProps) {
+export default function PricingSection() {
   const plans = [
     {
       name: 'Starter',
@@ -27,6 +23,7 @@ export default function Pricing({ onBookAudit }: PricingProps) {
         'Dedicated account manager',
       ],
       popular: false,
+      ctaText: 'Start Retaining Customers',
     },
     {
       name: 'Growth',
@@ -49,6 +46,7 @@ export default function Pricing({ onBookAudit }: PricingProps) {
         'Custom API integrations',
       ],
       popular: true,
+      ctaText: 'Scale Your Retention',
     },
     {
       name: 'Enterprise',
@@ -71,6 +69,7 @@ export default function Pricing({ onBookAudit }: PricingProps) {
       ],
       notIncluded: [],
       popular: false,
+      ctaText: 'Let\'s Talk Custom',
     },
   ];
 
@@ -119,16 +118,19 @@ export default function Pricing({ onBookAudit }: PricingProps) {
                 </div>
               </div>
 
-              <button
-                onClick={onBookAudit}
-                className={`w-full py-3 rounded-full font-semibold transition-all duration-300 mb-6 ${
+              <a
+                href="https://calendly.com/hi-retentionos/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`w-full py-3 rounded-full font-semibold transition-all duration-300 mb-6 flex items-center justify-center gap-2 group ${
                   plan.popular
                     ? 'bg-primary-500 text-black hover:bg-primary-600'
                     : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                 }`}
               >
-                {plan.price === 'Custom' ? 'Let\'s Talk Custom' : plan.name === 'Growth' ? 'Scale Your Retention' : 'Start Retaining Customers'}
-              </button>
+                {plan.ctaText}
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </a>
 
               <div className="space-y-3">
                 {plan.features.map((feature, idx) => (
@@ -154,7 +156,7 @@ export default function Pricing({ onBookAudit }: PricingProps) {
               <div className="text-3xl font-heading font-bold text-gray-900 mb-2">
                 90-Day Revenue Guarantee
               </div>
-              <p className="text-gray-600">If we don\'t increase your repeat revenue, we\'ll refund 100% of your fees</p>
+              <p className="text-gray-600">If we don't increase your repeat revenue, we'll refund 100% of your fees</p>
             </div>
             <div>
               <div className="text-3xl font-heading font-bold text-gray-900 mb-2">
@@ -166,7 +168,7 @@ export default function Pricing({ onBookAudit }: PricingProps) {
               <div className="text-3xl font-heading font-bold text-gray-900 mb-2">
                 ROI Tracking Included
               </div>
-              <p className="text-gray-600">See exactly what you\'re getting for every rupee spent</p>
+              <p className="text-gray-600">See exactly what you're getting for every rupee spent</p>
             </div>
           </div>
         </div>

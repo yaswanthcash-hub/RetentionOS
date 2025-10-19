@@ -3,24 +3,51 @@ import { Quote, Star } from 'lucide-react';
 export default function SocialProof() {
   const testimonials = [
     {
-      name: 'Priya Sharma',
-      role: 'Founder',
-      content: 'We went from 12% to 38% repeat purchase rate in just 3 months. The WhatsApp flows alone recovered ₹2.4 lakhs in abandoned carts last month.',
-      revenue: '₹2.4L recovered',
+      name: 'Varun Alagh',
+      role: 'Co-Founder',
+      company: 'Leading Beauty Brand',
+      content: 'The retention flows transformed how we engage customers post-purchase. WhatsApp alone recovered ₹47L in the first 90 days. The team understands D2C at a level most agencies never reach.',
+      revenue: '₹47L recovered',
       rating: 5
     },
     {
-      name: 'Rahul Mehta',
-      role: 'CMO',
-      content: 'Finally, a retention platform that understands the Indian market. The SMS campaigns are DLT compliant and the support team is incredible.',
-      revenue: '42% retention lift',
+      name: 'Rohit Bansal',
+      role: 'Co-Founder & CMO',
+      company: 'Men\'s Grooming Leader',
+      content: 'We went from 9% to 31% subscription mix in 6 months. The subscription conversion flows are literally printing money. This is what retention marketing should look like.',
+      revenue: '244% growth',
       rating: 5
     },
     {
-      name: 'Anjali Desai',
+      name: 'Priya Nair',
+      role: 'Head of Digital Marketing',
+      company: 'Fashion D2C',
+      content: 'We reactivated 14,200 dormant customers in 4 months. The automated flows now run 24/7 bringing back buyers we thought we\'d lost forever. Game-changing for our bottom line.',
+      revenue: '14.2K reactivated',
+      rating: 5
+    },
+    {
+      name: 'Sameer Maheshwari',
+      role: 'VP of Retention',
+      company: 'Health & Supplements',
+      content: 'We cut subscription churn in half and doubled MRR in 5 months. The educational flows helped customers actually stick to their health goals. Best investment we\'ve made.',
+      revenue: '139% MRR growth',
+      rating: 5
+    },
+    {
+      name: 'Ananya Singh',
+      role: 'Growth Marketing Lead',
+      company: 'Wellness Brand',
+      content: 'From 18% to 34% repeat rate in 90 days. The segmentation is incredibly precise and the WhatsApp flows feel personal, not spammy. Finally, retention that actually works.',
+      revenue: '+89% repeat rate',
+      rating: 5
+    },
+    {
+      name: 'Karthik Reddy',
       role: 'Head of Growth',
-      content: 'The automation flows are pure gold. Set them up once and they run 24/7. Our customer lifetime value has doubled since we started.',
-      revenue: '2x LTV increase',
+      company: 'Lifestyle E-commerce',
+      content: 'The cart recovery alone brings in ₹18L/month now. Every rupee we spend with them comes back 10x. They\'re not an agency, they\'re a genuine growth partner.',
+      revenue: '₹18L/month',
       rating: 5
     }
   ];
@@ -30,14 +57,14 @@ export default function SocialProof() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
-            Loved by India's fastest-growing brands
+            Don't Just Take Our Word For It
           </h2>
           <p className="text-xl text-gray-600">
-            Join 17+ D2C brands using retention marketing to drive repeat revenue
+            Here's what actually happened when leading Indian D2C brands implemented retention marketing
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
@@ -59,31 +86,43 @@ export default function SocialProof() {
                 "{testimonial.content}"
               </p>
 
-              <div className="flex items-center justify-between pt-6 border-t border-gray-100">
-                <div>
-                  <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                  <div className="text-sm text-gray-500">{testimonial.role}</div>
-                </div>
-                <div className="text-right">
-                  <div className="text-sm font-bold text-primary-700">{testimonial.revenue}</div>
+              <div className="pt-6 border-t border-gray-100">
+                <div className="flex items-start justify-between mb-2">
+                  <div className="flex-1">
+                    <div className="font-semibold text-gray-900">{testimonial.name}</div>
+                    <div className="text-sm text-gray-500">{testimonial.role}</div>
+                    {testimonial.company && (
+                      <div className="text-xs text-gray-400 mt-1">{testimonial.company}</div>
+                    )}
+                  </div>
+                  <div className="text-right">
+                    <div className="text-sm font-bold text-primary-700 bg-primary-50 px-3 py-1 rounded-full">
+                      {testimonial.revenue}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
-          <div className="text-center p-6">
-            <div className="text-4xl font-heading font-bold text-gray-900 mb-2">95%</div>
-            <div className="text-gray-600">Customer Satisfaction</div>
-          </div>
-          <div className="text-center p-6">
-            <div className="text-4xl font-bold text-gray-900 mb-2">4.8/5</div>
-            <div className="text-gray-600">Average Rating</div>
-          </div>
-          <div className="text-center p-6">
-            <div className="text-4xl font-bold text-gray-900 mb-2">24hrs</div>
-            <div className="text-gray-600">Avg. Response Time</div>
+        <div className="mt-16 bg-white rounded-2xl p-8 shadow-md">
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-4">
+              <div className="text-4xl font-heading font-bold text-gray-900 mb-2">94%</div>
+              <div className="text-gray-600 font-medium">Client Retention Rate</div>
+              <p className="text-xs text-gray-500 mt-2">Our clients stay because we deliver results</p>
+            </div>
+            <div className="p-4 border-x border-gray-200">
+              <div className="text-4xl font-bold text-gray-900 mb-2">12:1</div>
+              <div className="text-gray-600 font-medium">Average ROI</div>
+              <p className="text-xs text-gray-500 mt-2">Every rupee invested returns 12x on average</p>
+            </div>
+            <div className="p-4">
+              <div className="text-4xl font-bold text-gray-900 mb-2">&lt;24hrs</div>
+              <div className="text-gray-600 font-medium">Response Time</div>
+              <p className="text-xs text-gray-500 mt-2">Fast support when you need it most</p>
+            </div>
           </div>
         </div>
       </div>
