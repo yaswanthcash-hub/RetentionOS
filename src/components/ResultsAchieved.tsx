@@ -51,7 +51,7 @@ export default function ResultsAchieved() {
 
           <div className="relative">
             <img
-              src="/image copy copy copy copy copy copy.png"
+              src="/image copy copy copy copy copy copy copy.png"
               alt="Profitable Growth Cycle showing customers engage, activate, repeat, and become paid subscribers and loyalists"
               className="w-full h-auto"
             />
