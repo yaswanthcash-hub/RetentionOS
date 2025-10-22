@@ -12,7 +12,8 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-heading font-bold text-gray-900 mb-6 leading-tight animate-slide-up">
-          Make your customers <span className="bg-[#d1f26e] px-2">stay, pay, and say good things.</span>
+          Make your customers<br />
+          <span className="bg-[#d1f26e] px-2">Stay, Pay, and Say</span> good things.
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed animate-slide-up-delay">
