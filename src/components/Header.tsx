@@ -17,8 +17,9 @@ export default function Header() {
   const menuItems = [
     { label: 'Services', href: '#features' },
     { label: 'How It Works', href: '#how-it-works' },
+    { label: 'Results', href: '#results' },
     { label: 'Case Studies', href: '#case-studies' },
-    { label: 'Pricing', href: '#pricing' },
+    { label: 'ROI Calculator', href: '#roi-calculator' },
     { label: 'FAQ', href: '#faq' },
   ];
 

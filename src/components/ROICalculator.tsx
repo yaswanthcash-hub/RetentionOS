@@ -22,7 +22,7 @@ export default function ROICalculator() {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-br from-gray-50 to-primary-50">
+    <section id="roi-calculator" className="py-24 bg-gradient-to-br from-gray-50 to-primary-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-500 text-black rounded-full text-sm font-semibold mb-4">

@@ -19,7 +19,7 @@ export default function Comparison() {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section id="comparison" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
