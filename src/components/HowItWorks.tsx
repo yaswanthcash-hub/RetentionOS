@@ -92,7 +92,7 @@ export default function HowItWorks() {
           <div key={phaseIndex} className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                <span className="text-primary-600">{phase.title}</span> {phase.subtitle}
+                <span className="bg-primary-500 text-gray-900 px-2">{phase.title}</span> {phase.subtitle}
               </h2>
             </div>
 
