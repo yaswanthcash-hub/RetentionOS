@@ -56,7 +56,7 @@ export default function ProcessOverview() {
 
           <div className="space-y-8">
             <img
-              src="/public/image copy copy copy copy copy copy copy copy copy.png"
+              src="/image copy copy copy copy copy copy copy copy copy.png"
               alt="Repeat Purchase Maximizer Process"
               className="w-full h-auto"
             />
