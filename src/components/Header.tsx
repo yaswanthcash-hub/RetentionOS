@@ -16,10 +16,10 @@ export default function Header() {
 
   const menuItems = [
     { label: 'Services', href: '#features' },
-    { label: 'How It Works', href: '#how-it-works' },
+    { label: 'How it works', href: '#how-it-works' },
+    { label: 'Case studies', href: '#case-studies' },
     { label: 'Results', href: '#results' },
-    { label: 'Case Studies', href: '#case-studies' },
-    { label: 'ROI Calculator', href: '#roi-calculator' },
+    { label: 'ROI calculator', href: '#roi-calculator' },
     { label: 'FAQ', href: '#faq' },
   ];
 

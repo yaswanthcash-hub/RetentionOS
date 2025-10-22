@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import AcquisitionTrap from './components/AcquisitionTrap';
 import Features from './components/Features';
 import Comparison from './components/Comparison';
-import SocialProof from './components/SocialProof';
 import ProcessOverview from './components/ProcessOverview';
 import HowItWorks from './components/HowItWorks';
 import CaseStudies from './components/CaseStudies';
@@ -32,7 +31,6 @@ function App() {
         company="Dr. Vaidya's"
       />
       <Comparison />
-      <SocialProof />
       <ProcessOverview />
       <HowItWorks />
       <FounderInsight
