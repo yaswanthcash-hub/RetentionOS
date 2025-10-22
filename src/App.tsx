@@ -6,7 +6,6 @@ import Comparison from './components/Comparison';
 import SocialProof from './components/SocialProof';
 import HowItWorks from './components/HowItWorks';
 import CaseStudies from './components/CaseStudies';
-import PricingSection from './components/PricingSection';
 import ResultsAchieved from './components/ResultsAchieved';
 import ROICalculator from './components/ROICalculator';
 import FAQ from './components/FAQ';
@@ -24,7 +23,6 @@ function App() {
       <SocialProof />
       <HowItWorks />
       <CaseStudies />
-      <PricingSection />
       <ResultsAchieved />
       <ROICalculator />
       <FAQ />
