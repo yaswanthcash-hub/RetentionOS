@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import AcquisitionTrap from './components/AcquisitionTrap';
 import Features from './components/Features';
 import Comparison from './components/Comparison';
 import SocialProof from './components/SocialProof';
@@ -16,6 +17,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <AcquisitionTrap />
       <Features />
       <Comparison />
       <SocialProof />
