@@ -86,13 +86,13 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-20 bg-[#f5f0e8] relative overflow-hidden">
+    <section className="py-20 bg-gray-50 relative overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-6">
         {phases.map((phase, phaseIndex) => (
           <div key={phaseIndex} className="mb-16">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                <span className="text-[#ff6b35]">{phase.title}</span> {phase.subtitle}
+                <span className="text-primary-600">{phase.title}</span> {phase.subtitle}
               </h2>
             </div>
 
@@ -102,8 +102,8 @@ export default function HowItWorks() {
                 return (
                   <div key={stepIndex} className="text-center">
                     <div className="flex justify-center mb-4">
-                      <div className="w-16 h-16 bg-[#d4e7f5] rounded-lg flex items-center justify-center">
-                        <Icon className="w-8 h-8 text-[#3b82f6]" strokeWidth={2} />
+                      <div className="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center">
+                        <Icon className="w-8 h-8 text-primary-700" strokeWidth={2} />
                       </div>
                     </div>
 

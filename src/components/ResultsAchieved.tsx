@@ -12,7 +12,7 @@ export default function ResultsAchieved() {
 
             <div className="space-y-8">
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center mt-1">
+                <div className="flex-shrink-0 w-8 h-8 bg-primary-500 rounded-lg flex items-center justify-center mt-1">
                   <Check className="w-5 h-5 text-white" strokeWidth={3} />
                 </div>
                 <p className="text-xl text-gray-900 font-medium">
@@ -21,7 +21,7 @@ export default function ResultsAchieved() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center mt-1">
+                <div className="flex-shrink-0 w-8 h-8 bg-primary-500 rounded-lg flex items-center justify-center mt-1">
                   <Check className="w-5 h-5 text-white" strokeWidth={3} />
                 </div>
                 <p className="text-xl text-gray-900 font-medium">
@@ -30,7 +30,7 @@ export default function ResultsAchieved() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center mt-1">
+                <div className="flex-shrink-0 w-8 h-8 bg-primary-500 rounded-lg flex items-center justify-center mt-1">
                   <Check className="w-5 h-5 text-white" strokeWidth={3} />
                 </div>
                 <p className="text-xl text-gray-900 font-medium">
@@ -39,7 +39,7 @@ export default function ResultsAchieved() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center mt-1">
+                <div className="flex-shrink-0 w-8 h-8 bg-primary-500 rounded-lg flex items-center justify-center mt-1">
                   <Check className="w-5 h-5 text-white" strokeWidth={3} />
                 </div>
                 <p className="text-xl text-gray-900 font-medium">

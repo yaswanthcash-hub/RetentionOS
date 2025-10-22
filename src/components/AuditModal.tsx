@@ -170,7 +170,7 @@ export default function AuditModal({ isOpen, onClose }: AuditModalProps) {
                 name="monthly_revenue"
                 value={formData.monthly_revenue}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
               >
                 <option value="">Select range</option>
                 <option value="0-5L">₹0 - ₹5 Lakhs</option>
@@ -191,7 +191,7 @@ export default function AuditModal({ isOpen, onClose }: AuditModalProps) {
                 name="current_tools"
                 value={formData.current_tools}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition-all"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
                 placeholder="e.g., Mailchimp, WhatsApp Business, etc."
               />
             </div>

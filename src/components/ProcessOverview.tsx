@@ -8,9 +8,9 @@ export default function ProcessOverview() {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                <span className="text-[#ff6b35]">REPEAT PURCHASE</span>
+                <span className="text-primary-600">REPEAT PURCHASE</span>
                 <br />
-                <span className="text-[#ff6b35]">MAXIMIZER™</span>
+                <span className="text-primary-600">MAXIMIZER™</span>
               </h2>
               <p className="text-lg text-gray-800 leading-relaxed">
                 We help <span className="font-bold italic">CPG brands</span> raise their{' '}
@@ -21,8 +21,8 @@ export default function ProcessOverview() {
 
             <div className="border-t border-b border-gray-300 py-8 space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-14 h-14 bg-[#d1f26e] rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Presentation className="w-7 h-7 text-[#4a5a3c]" strokeWidth={2} />
+                <div className="w-14 h-14 bg-primary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Presentation className="w-7 h-7 text-gray-900" strokeWidth={2} />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">MAP</h3>
@@ -31,8 +31,8 @@ export default function ProcessOverview() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-14 h-14 bg-[#d1f26e] rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Rocket className="w-7 h-7 text-[#4a5a3c]" strokeWidth={2} />
+                <div className="w-14 h-14 bg-primary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Rocket className="w-7 h-7 text-gray-900" strokeWidth={2} />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">ACTIVATE</h3>
@@ -41,8 +41,8 @@ export default function ProcessOverview() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-14 h-14 bg-[#d1f26e] rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Users className="w-7 h-7 text-[#4a5a3c]" strokeWidth={2} />
+                <div className="w-14 h-14 bg-primary-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Users className="w-7 h-7 text-gray-900" strokeWidth={2} />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">SUSTAIN</h3>
