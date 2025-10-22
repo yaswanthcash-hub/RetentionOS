@@ -13,14 +13,13 @@ export default function Hero() {
 
         <h1 className="text-5xl md:text-7xl font-heading font-bold text-gray-900 mb-6 leading-tight animate-slide-up">
           Stop Losing Money on{' '}
-          <span className="text-primary-700">
+          <span className="text-[#d4ff00]">
             One-Time Customers
           </span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed animate-slide-up-delay">
-          Build a retention engine that turns browsers into buyers, and buyers into brand advocates.{' '}
-          <span className="font-semibold text-gray-900">WhatsApp, Email & SMS that actually drives repeat revenue.</span>
+          Make your customers stay, pay, and say good things.
         </p>
 
         <a
