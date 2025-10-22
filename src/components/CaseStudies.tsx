@@ -69,24 +69,24 @@ export default function CaseStudies() {
   ];
 
   return (
-    <section id="case-studies" className="py-24 bg-gray-50">
+    <section id="case-studies" className="pt-16 sm:pt-20 md:pt-24 pb-16 md:pb-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
+        <div className="text-center mb-12 sm:mb-14 md:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-3 sm:mb-4 px-4">
             Case Studies from Leading Indian Brands
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             See how top D2C brands used retention marketing to scale repeat revenue, reduce churn, and maximize customer lifetime value
           </p>
         </div>
 
-        <div className="space-y-8">
+        <div className="space-y-6 sm:space-y-8">
           {caseStudies.map((study, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden"
+              className="bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
-              <div className="grid md:grid-cols-3 gap-8 p-8">
+              <div className="grid md:grid-cols-3 gap-6 sm:gap-8 p-6 sm:p-8">
                 <div className="md:col-span-1">
                   <div className={`inline-flex p-4 rounded-xl bg-gradient-to-br ${study.color} mb-4`}>
                     <study.icon className="w-8 h-8 text-white" />
@@ -136,11 +136,11 @@ export default function CaseStudies() {
                     <h4 className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
                       Results
                     </h4>
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
                       {study.results.map((result, idx) => (
-                        <div key={idx} className="bg-gray-50 rounded-lg p-4">
+                        <div key={idx} className="bg-gray-50 rounded-lg p-3 sm:p-4">
                           <div className="text-xs text-gray-500 mb-1">{result.metric}</div>
-                          <div className="text-lg font-bold text-gray-900 mb-1">{result.value}</div>
+                          <div className="text-base sm:text-lg font-bold text-gray-900 mb-1">{result.value}</div>
                           <div className="text-xs font-semibold text-primary-600">{result.growth}</div>
                         </div>
                       ))}
