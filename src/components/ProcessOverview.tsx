@@ -7,10 +7,10 @@ export default function ProcessOverview() {
         <div className="grid lg:grid-cols-[1fr,auto,2fr] gap-8 lg:gap-16 items-start">
           <div className="space-y-8">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                <span className="text-primary-600">REPEAT PURCHASE</span>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-gray-900">
+                REPEAT PURCHASE
                 <br />
-                <span className="text-primary-600">MAXIMIZER™</span>
+                MAXIMIZER™
               </h2>
               <p className="text-lg text-gray-800 leading-relaxed">
                 We help <span className="font-bold italic">CPG brands</span> raise their{' '}
