@@ -29,26 +29,6 @@ export default function Hero() {
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </a>
 
-        <div className="mt-16 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500 animate-fade-in-delay">
-          <div className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            <span>No credit card</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            <span>90-day guarantee</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <svg className="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-            </svg>
-            <span>ROI tracking included</span>
-          </div>
-        </div>
 
         <div className="mt-20 grid grid-cols-2 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
           <div className="text-center">
