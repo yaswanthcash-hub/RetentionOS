@@ -49,6 +49,9 @@ export default function Features() {
       title: 'Upsells & Cross-sells',
       description: 'Increase AOV and LTV with smart, post-purchase product pairings and contextual upsell opportunities.',
       color: 'from-teal-500 to-cyan-600'
+    },
+    {
+      isReadyToWork: true
     }
   ];
 
@@ -78,44 +81,58 @@ export default function Features() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="group relative p-8 bg-white border-2 border-gray-900 rounded-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
-            >
-              <div className="relative">
-                <div className={`inline-flex p-3 rounded-lg bg-gradient-to-br ${feature.color} mb-4`}>
-                  <feature.icon className="w-8 h-8 text-white" />
+          {features.map((feature, index) => {
+            if (feature.isReadyToWork) {
+              return (
+                <div
+                  key={index}
+                  className="group relative p-8 bg-white border-2 border-gray-900 rounded-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-start justify-center"
+                >
+                  <div className="relative">
+                    <h3 className="text-2xl font-heading font-bold text-gray-900 mb-4 uppercase tracking-tight">
+                      READY TO WORK?
+                    </h3>
+
+                    <p className="text-gray-700 leading-relaxed mb-6">
+                      Let's get started – book your call today!
+                    </p>
+
+                    <a
+                      href="https://calendly.com/hi-retentionos/30min"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center px-8 py-3.5 bg-red-500 text-white font-bold rounded-full hover:bg-red-600 transition-all duration-300 hover:scale-105 shadow-md"
+                    >
+                      Book a Call
+                    </a>
+                  </div>
                 </div>
+              );
+            }
 
-                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 uppercase">
-                  {feature.title}
-                </h3>
+            return (
+              <div
+                key={index}
+                className="group relative p-8 bg-white border-2 border-gray-900 rounded-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="relative">
+                  <div className={`inline-flex p-3 rounded-lg bg-gradient-to-br ${feature.color} mb-4`}>
+                    <feature.icon className="w-8 h-8 text-white" />
+                  </div>
 
-                <p className="text-gray-700 leading-relaxed">
-                  {feature.description}
-                </p>
+                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 uppercase">
+                    {feature.title}
+                  </h3>
+
+                  <p className="text-gray-700 leading-relaxed">
+                    {feature.description}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
-        <div className="mt-20 text-center">
-          <h3 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-            READY TO WORK?
-          </h3>
-          <p className="text-xl text-gray-600 mb-8">
-            Let's get started – book your call today!
-          </p>
-          <a
-            href="https://calendly.com/hi-retentionos/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-10 py-5 bg-red-500 text-white font-bold text-lg rounded-full hover:bg-red-600 transition-all duration-300 hover:scale-105 shadow-lg"
-          >
-            Book a Call
-          </a>
-        </div>
       </div>
     </section>
   );
