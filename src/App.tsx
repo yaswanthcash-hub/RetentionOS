@@ -4,6 +4,7 @@ import AcquisitionTrap from './components/AcquisitionTrap';
 import Features from './components/Features';
 import Comparison from './components/Comparison';
 import SocialProof from './components/SocialProof';
+import ProcessOverview from './components/ProcessOverview';
 import HowItWorks from './components/HowItWorks';
 import CaseStudies from './components/CaseStudies';
 import ResultsAchieved from './components/ResultsAchieved';
@@ -21,6 +22,7 @@ function App() {
       <Features />
       <Comparison />
       <SocialProof />
+      <ProcessOverview />
       <HowItWorks />
       <CaseStudies />
       <ResultsAchieved />
