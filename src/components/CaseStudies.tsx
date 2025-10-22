@@ -73,7 +73,7 @@ export default function CaseStudies() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
-            Real Results from Leading Indian Brands
+            Case Studies from Leading Indian Brands
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             See how top D2C brands used retention marketing to scale repeat revenue, reduce churn, and maximize customer lifetime value
