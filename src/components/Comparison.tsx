@@ -23,7 +23,7 @@ export default function Comparison() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
-            <div className="inline-flex items-center px-6 py-3 bg-red-500 text-white font-bold text-lg rounded-lg transform -rotate-1">
+            <div className="inline-flex items-center px-6 py-3 bg-primary-500 text-accent-black font-bold text-lg rounded-lg transform -rotate-1">
               US VS. THEM
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function Comparison() {
             href="https://calendly.com/hi-retentionos/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-red-500 text-white font-semibold rounded-full hover:bg-red-600 transition-all duration-300 hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-primary-500 text-accent-black font-semibold rounded-full hover:bg-primary-600 transition-all duration-300 hover:scale-105"
           >
             Book a Call
           </a>
@@ -57,17 +57,17 @@ export default function Comparison() {
             </div>
           </div>
 
-          <div className="bg-red-500 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-heading font-bold mb-8 border-b-2 border-white pb-4">
+          <div className="bg-primary-500 rounded-2xl p-8 text-accent-black">
+            <h3 className="text-2xl font-heading font-bold mb-8 border-b-2 border-accent-black pb-4">
               RETENTIONOS
             </h3>
             <div className="space-y-5">
               {retentionOS.map((item, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <div className="flex-shrink-0 mt-0.5">
-                    <Check className="w-5 h-5 text-white" strokeWidth={3} />
+                    <Check className="w-5 h-5 text-accent-black" strokeWidth={3} />
                   </div>
-                  <p className="text-white leading-relaxed">{item}</p>
+                  <p className="text-accent-black leading-relaxed">{item}</p>
                 </div>
               ))}
             </div>
