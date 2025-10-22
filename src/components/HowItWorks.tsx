@@ -1,105 +1,127 @@
-import { UserPlus, Settings, Rocket, TrendingUp } from 'lucide-react';
-
 export default function HowItWorks() {
-  const steps = [
+  const phases = [
     {
-      icon: UserPlus,
-      title: 'Book Free Audit',
-      description: 'Share your current retention metrics and challenges. We analyze your customer data and identify quick wins.',
-      duration: 'Review in 15 mins',
-      color: 'from-blue-500 to-blue-600'
+      title: 'Phase 1:',
+      subtitle: 'Map Repeat Purchase Journey',
+      steps: [
+        {
+          number: '1',
+          title: 'Analyze',
+          subtitle: 'Repeat Patterns',
+          description: 'Identify which products, customers, and behaviors will most likely repeat.'
+        },
+        {
+          number: '2',
+          title: 'Decode',
+          subtitle: 'Voice of Customer',
+          description: 'Discover what customers love (to amplify it) and uncover what\'s stopping them from repurchasing.'
+        },
+        {
+          number: '3',
+          title: 'Map',
+          subtitle: 'Customer Journey',
+          description: 'Plan a clear journey, messaging, offers, and channels for each customer segment.'
+        }
+      ]
     },
     {
-      icon: Settings,
-      title: 'Custom Setup',
-      description: 'Our team builds tailored automation flows for your brand. We coordinate technical integration with your store.',
-      duration: '2-3 days',
-      color: 'from-purple-500 to-purple-600'
+      title: 'Phase 2:',
+      subtitle: 'Activate Repeat Purchases',
+      steps: [
+        {
+          number: '4',
+          title: 'Nurture',
+          subtitle: 'Buyers',
+          description: 'Prepare each customer segment for their next order with product education and brand trust building.'
+        },
+        {
+          number: '5',
+          title: 'Accelerate',
+          subtitle: 'Re-orders',
+          description: 'Nudge your buyers with restock alerts and cross-sell around hero SKUs to shorten the gap between orders.'
+        },
+        {
+          number: '6',
+          title: 'Scale',
+          subtitle: 'Subscriptions',
+          description: 'Convert buyers into paid subscribers through perk-stacked onboarding and loyalty rewards.'
+        }
+      ]
     },
     {
-      icon: Rocket,
-      title: 'Launch Campaigns',
-      description: 'Activate pre-built flows for cart recovery, win-back, and post-purchase. Start seeing results immediately.',
-      duration: 'Day 1',
-      color: 'from-emerald-500 to-emerald-600'
-    },
-    {
-      icon: TrendingUp,
-      title: 'Scale & Optimize',
-      description: 'Monitor real-time performance dashboards. We continuously optimize based on what drives the most revenue.',
-      duration: 'Ongoing',
-      color: 'from-orange-500 to-red-600'
+      title: 'Phase 3:',
+      subtitle: 'Sustain Repeat Purchases',
+      steps: [
+        {
+          number: '7',
+          title: 'Cultivate',
+          subtitle: 'Loyal Customers',
+          description: 'Orchestrate loyal behavior through VIP tier perks, surprise gifts, and status cues.'
+        },
+        {
+          number: '8',
+          title: 'Reactivate',
+          subtitle: 'Customers',
+          description: 'Empathetic check-ins, tailored offers, and founder notes to reactivate lapsed segments.'
+        },
+        {
+          number: '9',
+          title: 'Activate',
+          subtitle: 'Omni Channels',
+          description: 'Reinforce repeat purchase behavior via SMS, WhatsApp, push, onsite, and direct mail.'
+        }
+      ]
     }
   ];
 
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-emerald-50 opacity-50"></div>
-
+    <section className="py-24 bg-gradient-to-b from-stone-50 to-white relative overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
-            From setup to revenue in 72 hours
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            No technical expertise required. We handle everything from strategy to execution.
-          </p>
-        </div>
+        {phases.map((phase, phaseIndex) => (
+          <div key={phaseIndex} className="mb-20">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-2">
+                <span className="text-orange-500">{phase.title}</span> {phase.subtitle}
+              </h2>
+            </div>
 
-        <div className="relative">
-          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-blue-200 via-purple-200 via-emerald-200 to-orange-200 -translate-y-1/2 z-0"></div>
-
-          <div className="grid md:grid-cols-4 gap-8 relative z-10">
-            {steps.map((step, index) => (
-              <div key={index} className="relative">
-                <div className="bg-white p-8 rounded-2xl border-2 border-gray-100 hover:border-primary-200 hover:shadow-xl transition-all duration-300">
-                  <div className="absolute -top-6 left-1/2 -translate-x-1/2">
-                    <div className={`w-12 h-12 bg-gradient-to-br ${step.color} rounded-full flex items-center justify-center shadow-lg border-4 border-white`}>
-                      <step.icon className="w-6 h-6 text-white" />
+            <div className="grid md:grid-cols-3 gap-8">
+              {phase.steps.map((step, stepIndex) => (
+                <div key={stepIndex} className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                      <img
+                        src="/public/image copy copy copy copy copy copy copy copy.png"
+                        alt={step.title}
+                        className="w-6 h-6"
+                      />
                     </div>
                   </div>
 
-                  <div className="mt-6 text-center">
-                    <div className="inline-block px-3 py-1 bg-gray-100 text-gray-600 text-xs font-semibold rounded-full mb-4">
-                      {step.duration}
-                    </div>
-
-                    <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
-                      {step.title}
-                    </h3>
-
-                    <p className="text-gray-600 leading-relaxed text-sm">
-                      {step.description}
-                    </p>
-                  </div>
-
-                  <div className="absolute -bottom-3 left-1/2 -translate-x-1/2">
-                    <div className="w-8 h-8 bg-white rounded-full border-2 border-gray-200 flex items-center justify-center text-sm font-bold text-gray-400">
-                      {index + 1}
-                    </div>
-                  </div>
+                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-1">
+                    {step.number}. {step.title}
+                  </h3>
+                  <h4 className="text-lg font-semibold text-gray-700 mb-3">
+                    {step.subtitle}
+                  </h4>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {step.description}
+                  </p>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
+        ))}
 
-        <div className="mt-20 grid md:grid-cols-2 gap-8">
-          <div className="p-8 bg-primary-500 rounded-2xl text-black">
-            <div className="text-4xl font-heading font-bold mb-2">₹8.5L</div>
-            <div className="text-black/80 mb-4">Average revenue generated in first 90 days</div>
-            <p className="text-black/70 text-sm">
-              Based on 100+ brands with monthly revenue between ₹10L - ₹50L
-            </p>
-          </div>
-
-          <div className="p-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl text-white">
-            <div className="text-4xl font-heading font-bold mb-2">60 min</div>
-            <div className="text-blue-100 mb-4">That's all it takes to get started</div>
-            <p className="text-blue-50 text-sm">
-              No complex onboarding. No lengthy training. Start driving revenue today.
-            </p>
-          </div>
+        <div className="text-center mt-16">
+          <a
+            href="https://calendly.com/hi-retentionos/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-4 bg-orange-500 text-white text-lg font-semibold rounded-full hover:bg-orange-600 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+          >
+            BOOK YOUR RETENTION STRATEGY SESSION
+          </a>
         </div>
       </div>
     </section>
