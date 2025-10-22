@@ -2,21 +2,21 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[calc(100vh+2rem)] md:min-h-screen flex items-center justify-center overflow-hidden bg-white pt-20 pb-16 sm:pb-24 md:pb-32">
+    <section className="relative bg-white pt-20 pb-20 sm:pb-24 md:pb-32 md:min-h-screen md:flex md:items-center md:justify-center overflow-hidden">
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
 
-      <div className="relative max-w-7xl mx-auto px-6 py-8 sm:py-12 md:py-20 text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 text-primary-900 rounded-full text-sm font-semibold mb-8 animate-fade-in">
+      <div className="relative max-w-7xl mx-auto px-6 py-12 sm:py-16 md:py-20 text-center">
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 text-primary-900 rounded-full text-xs sm:text-sm font-semibold mb-6 sm:mb-8 animate-fade-in">
           <span className="w-2 h-2 bg-primary-700 rounded-full animate-pulse"></span>
           Trusted by 17+ Leading Indian D2C Brands
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold text-gray-900 mb-6 md:mb-8 leading-[1.15] md:leading-[1.1] animate-slide-up">
+        <h1 className="text-[2rem] sm:text-5xl md:text-7xl font-heading font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 leading-[1.2] md:leading-[1.1] animate-slide-up">
           Make your customers<br />
           <span className="bg-[#d1f26e] px-2 leading-[0.3] inline-block">Stay, Pay, and Say</span> good things.
         </h1>
 
-        <p className="text-lg sm:text-xl md:text-2xl text-gray-600 mb-8 sm:mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed animate-slide-up-delay">
+        <p className="text-base sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed animate-slide-up-delay">
           <span className="font-semibold text-gray-900">With a dedicated team of fractional retention leaders obsessed with maximizing your customer LTV</span>
         </p>
 
@@ -31,7 +31,7 @@ export default function Hero() {
         </a>
 
 
-        <div className="mt-12 sm:mt-16 md:mt-20 grid grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-3xl mx-auto mb-8 md:mb-0">
+        <div className="mt-10 sm:mt-16 md:mt-20 grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-8 max-w-3xl mx-auto">
           <div className="text-center">
             <div className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-1 sm:mb-2">₹50Cr+</div>
             <div className="text-xs sm:text-sm text-gray-600">Revenue Unlocked</div>

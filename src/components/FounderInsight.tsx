@@ -35,7 +35,7 @@ export default function FounderInsight({ quote, founderName, company }: FounderI
   return (
     <section
       ref={sectionRef}
-      className="relative py-16 px-6 overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
+      className="relative py-12 sm:py-16 md:py-20 px-6 overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
       aria-label="Founder Insight"
     >
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:32px_32px]"></div>
@@ -63,7 +63,7 @@ export default function FounderInsight({ quote, founderName, company }: FounderI
         </div>
 
         <blockquote
-          className="text-xl md:text-2xl lg:text-3xl italic font-light leading-relaxed mb-8 px-4 md:px-8"
+          className="text-lg sm:text-xl md:text-2xl lg:text-3xl italic font-light leading-relaxed mb-6 sm:mb-8 px-4 md:px-8"
           style={{
             color: '#FFFFFF',
             textShadow: '0 2px 8px rgba(0, 0, 0, 0.3)'
