@@ -19,7 +19,7 @@ export default function AcquisitionTrap() {
 
             <div className="relative">
               <img
-                src="/image copy copy copy.png"
+                src="/image copy copy copy copy.png"
                 alt="Acquisition Trap Cycle showing increasing CPMs, higher budget, increasing CAC, and shrinking profits"
                 className="w-full h-auto"
               />
