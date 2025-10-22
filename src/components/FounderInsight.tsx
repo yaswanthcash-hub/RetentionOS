@@ -35,10 +35,14 @@ export default function FounderInsight({ quote, founderName, company }: FounderI
   return (
     <section
       ref={sectionRef}
-      className="relative py-16 px-6 overflow-hidden"
-      style={{ backgroundColor: '#0B1322' }}
+      className="relative py-16 px-6 overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
       aria-label="Founder Insight"
     >
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:32px_32px]"></div>
+
+      <div className="absolute top-20 left-20 w-72 h-72 bg-primary-500 rounded-full blur-3xl opacity-20"></div>
+      <div className="absolute bottom-20 right-20 w-96 h-96 bg-primary-600 rounded-full blur-3xl opacity-20"></div>
+
       <div
         className={`relative max-w-[900px] mx-auto text-center transition-all duration-1000 ease-out ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
@@ -77,12 +81,6 @@ export default function FounderInsight({ quote, founderName, company }: FounderI
             {company}
           </span>
         </p>
-
-        <div
-          className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-32 rounded-full blur-3xl opacity-20 pointer-events-none"
-          style={{ backgroundColor: '#D8F560' }}
-          aria-hidden="true"
-        />
       </div>
     </section>
   );
