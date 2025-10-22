@@ -6,49 +6,49 @@ export default function Features() {
       icon: ClipboardList,
       title: 'Audit & 90-Day Roadmap',
       description: 'Uncover hidden revenue gaps and build a tailored retention roadmap to drive sustainable growth from day one.',
-      color: 'from-blue-500 to-cyan-600'
+      color: 'from-[#2563EB] to-[#1E40AF]'
     },
     {
       icon: Wallet,
       title: 'Payback Model',
       description: 'Clarify your payback window by channel and improve cash efficiency with smarter acquisition and retention balance.',
-      color: 'from-green-500 to-emerald-600'
+      color: 'from-[#10B981] to-[#059669]'
     },
     {
       icon: RefreshCw,
       title: 'Lifecycle Strategy',
       description: 'Craft full-funnel email and SMS flows that nurture, convert, and retain — from welcome to winback.',
-      color: 'from-purple-500 to-indigo-600'
+      color: 'from-[#3B82F6] to-[#1E40AF]'
     },
     {
       icon: Gift,
       title: 'Subscription Retention & LTV',
       description: 'Boost lifetime value with thoughtful gifting, intuitive account portals, and post-purchase journeys that build trust.',
-      color: 'from-pink-500 to-rose-600'
+      color: 'from-[#2563EB] to-[#3B82F6]'
     },
     {
       icon: TrendingUp,
       title: 'Subscriber Growth',
       description: 'Accelerate list growth by optimizing lead capture, popups, and offers designed to convert top-of-funnel traffic.',
-      color: 'from-orange-500 to-red-600'
+      color: 'from-[#F59E0B] to-[#2563EB]'
     },
     {
       icon: BarChart3,
       title: 'Retention KPI Tracking & Analytics',
       description: 'Track what matters most — from churn rate to repeat purchase rate — with dashboards that turn data into action.',
-      color: 'from-blue-600 to-indigo-700'
+      color: 'from-[#2563EB] to-[#1E40AF]'
     },
     {
       icon: Tag,
       title: 'Offer Testing Strategy',
       description: 'Test and iterate on first-purchase offers that drive conversion and attract customers who actually stick around.',
-      color: 'from-red-500 to-pink-600'
+      color: 'from-[#EF4444] to-[#2563EB]'
     },
     {
       icon: ShoppingBag,
       title: 'Upsells & Cross-sells',
       description: 'Increase AOV and LTV with smart, post-purchase product pairings and contextual upsell opportunities.',
-      color: 'from-teal-500 to-cyan-600'
+      color: 'from-[#10B981] to-[#2563EB]'
     },
     {
       isReadyToWork: true
@@ -60,7 +60,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
-            <div className="inline-flex items-center px-6 py-3 bg-red-500 text-white font-bold text-lg rounded-lg transform -rotate-1">
+            <div className="inline-flex items-center px-6 py-3 text-white font-bold text-lg rounded-lg transform -rotate-1" style={{backgroundColor: '#2563EB'}}>
               WHAT WE OFFER
             </div>
           </div>
@@ -74,7 +74,10 @@ export default function Features() {
             href="https://calendly.com/hi-retentionos/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-red-500 text-white font-semibold rounded-full hover:bg-red-600 transition-all duration-300 hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-4 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105"
+            style={{backgroundColor: '#2563EB'}}
+            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1E40AF'}
+            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#2563EB'}
           >
             Book a Call
           </a>
@@ -101,7 +104,10 @@ export default function Features() {
                       href="https://calendly.com/hi-retentionos/30min"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center px-8 py-3.5 bg-red-500 text-white font-bold rounded-full hover:bg-red-600 transition-all duration-300 hover:scale-105 shadow-md"
+                      className="inline-flex items-center justify-center px-8 py-3.5 text-white font-bold rounded-full transition-all duration-300 hover:scale-105 shadow-md"
+                      style={{backgroundColor: '#2563EB'}}
+                      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1E40AF'}
+                      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#2563EB'}
                     >
                       Book a Call
                     </a>
