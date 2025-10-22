@@ -7,6 +7,7 @@ import SocialProof from './components/SocialProof';
 import HowItWorks from './components/HowItWorks';
 import CaseStudies from './components/CaseStudies';
 import PricingSection from './components/PricingSection';
+import ResultsAchieved from './components/ResultsAchieved';
 import ROICalculator from './components/ROICalculator';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
@@ -24,6 +25,7 @@ function App() {
       <HowItWorks />
       <CaseStudies />
       <PricingSection />
+      <ResultsAchieved />
       <ROICalculator />
       <FAQ />
       <FinalCTA />
