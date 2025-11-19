@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import LogoCarousel from './components/LogoCarousel';
 import AcquisitionTrap from './components/AcquisitionTrap';
 import Features from './components/Features';
 import Comparison from './components/Comparison';
@@ -18,6 +19,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <LogoCarousel />
       <FounderInsight
         quote="Understand your customer — stay close to them; that's the best thing you can do."
         founderName="Varun Alagh, Co-founder & CEO at"
