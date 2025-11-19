@@ -1,25 +1,11 @@
-import WorldMap from "@/components/ui/world-map";
-import { motion } from "motion/react";
+import WorldMap from "./ui/world-map";
 
 export default function WorldMapDemo() {
   return (
-    <div className="py-40 dark:bg-black bg-white w-full">
-      <div className="max-w-7xl mx-auto text-center">
-        <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-          Remote{" "}
-          <span className="text-neutral-400">
-            {"Connectivity".split("").map((word, idx) => (
-              <motion.span
-                key={idx}
-                className="inline-block"
-                initial={{ x: -10, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: idx * 0.04 }}
-              >
-                {word}
-              </motion.span>
-            ))}
-          </span>
+    <div className="py-40 bg-white w-full">
+      <div className="max-w-7xl mx-auto text-center px-4">
+        <p className="font-bold text-xl md:text-4xl text-black">
+          Global <span className="text-neutral-400">Connectivity</span>
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
           Break free from traditional boundaries. Work from anywhere, at the
