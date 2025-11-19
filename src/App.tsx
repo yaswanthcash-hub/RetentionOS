@@ -21,6 +21,7 @@ function App() {
       <Header />
       <Hero />
       <LogoCarousel />
+      <TrustedBrands />
       <FounderInsight
         quote="Understand your customer — stay close to them; that's the best thing you can do."
         founderName="Varun Alagh, Co-founder & CEO at"
@@ -41,7 +42,6 @@ function App() {
         founderName="Vipul Gupta, Founder at"
         company="Re'equil"
       />
-      <TrustedBrands />
       <CaseStudiesScroll />
       <FounderInsight
         quote="We grew 150% while achieving ~40% repeat customers — retention scaled the business."
