@@ -14,12 +14,14 @@ import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import FounderInsight from './components/FounderInsight';
+import WorldMapDemo from './components/WorldMapDemo';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <WorldMapDemo />
       <LogoCarousel />
       <TrustedBrands />
       <FounderInsight
