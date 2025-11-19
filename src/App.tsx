@@ -6,7 +6,8 @@ import Features from './components/Features';
 import Comparison from './components/Comparison';
 import ProcessOverview from './components/ProcessOverview';
 import HowItWorks from './components/HowItWorks';
-import CaseStudies from './components/CaseStudies';
+import TrustedBrands from './components/TrustedBrands';
+import CaseStudiesScroll from './components/CaseStudiesScroll';
 import ResultsAchieved from './components/ResultsAchieved';
 import ROICalculator from './components/ROICalculator';
 import FAQ from './components/FAQ';
@@ -40,7 +41,8 @@ function App() {
         founderName="Vipul Gupta, Founder at"
         company="Re'equil"
       />
-      <CaseStudies />
+      <TrustedBrands />
+      <CaseStudiesScroll />
       <FounderInsight
         quote="We grew 150% while achieving ~40% repeat customers — retention scaled the business."
         founderName="Dheeraj Bansal, Co-founder at"
