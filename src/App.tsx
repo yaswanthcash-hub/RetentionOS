@@ -9,7 +9,6 @@ import HowItWorks from './components/HowItWorks';
 import CaseStudies from './components/CaseStudies';
 import ResultsAchieved from './components/ResultsAchieved';
 import ROICalculator from './components/ROICalculator';
-import CRMExpertise from './components/CRMExpertise';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
@@ -54,7 +53,6 @@ function App() {
         founderName="Falguni Nayar, Founder & CEO at"
         company="Nykaa"
       />
-      <CRMExpertise />
       <FAQ />
       <FounderInsight
         quote="Customer loyalty is earned through clarity, curation and consistent experience — not just ads."
