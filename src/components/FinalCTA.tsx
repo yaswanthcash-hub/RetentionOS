@@ -30,7 +30,7 @@ export default function FinalCTA() {
           href="https://calendly.com/hi-retentionos/30min"
           target="_blank"
           rel="noopener noreferrer"
-          className="group inline-flex items-center gap-3 px-10 py-5 bg-primary-500 text-black text-lg font-semibold rounded-full hover:bg-primary-600 transition-all duration-300 shadow-2xl hover:shadow-primary-500/50 hover:scale-105 mb-8"
+          className="group inline-flex items-center gap-3 px-10 py-5 bg-primary-500 text-white text-lg font-semibold rounded-full hover:bg-primary-600 transition-all duration-300 shadow-2xl hover:shadow-primary-500/50 hover:scale-105 mb-8"
         >
           Book Your Free Audit
           <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />

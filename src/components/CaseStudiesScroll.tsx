@@ -190,7 +190,7 @@ export default function CaseStudiesScroll() {
               href="https://calendly.com/hi-retentionos/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-500 text-black font-semibold rounded-full hover:bg-primary-600 transition-all duration-300 hover:scale-105"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-500 text-white font-semibold rounded-full hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300 hover:scale-105"
             >
               Book Your Free Audit
             </a>

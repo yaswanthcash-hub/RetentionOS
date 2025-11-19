@@ -68,7 +68,7 @@ export default function Header() {
               href="https://calendly.com/hi-retentionos/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-primary-500 text-black font-semibold rounded-full hover:bg-primary-600 transition-all duration-300 hover:scale-105 inline-block"
+              className="px-6 py-3 bg-primary-500 text-white font-semibold rounded-full hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300 hover:scale-105 inline-block"
             >
               Book Free Audit
             </a>
@@ -105,7 +105,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
-              className="w-full px-6 py-3 bg-primary-500 text-black font-semibold rounded-full hover:bg-primary-600 transition-colors inline-block text-center"
+              className="w-full px-6 py-3 bg-primary-500 text-white font-semibold rounded-full hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300 hover:scale-105 inline-block text-center"
             >
               Book Free Audit
             </a>

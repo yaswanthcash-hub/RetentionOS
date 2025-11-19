@@ -25,7 +25,7 @@ export default function ROICalculator() {
     <section id="roi-calculator" className="py-24 bg-gradient-to-br from-gray-50 to-primary-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-500 text-black rounded-full text-sm font-semibold mb-4">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-full text-sm font-semibold mb-4">
             <Calculator className="w-4 h-4" />
             ROI Calculator
           </div>
@@ -96,13 +96,13 @@ export default function ROICalculator() {
 
               <div className="bg-primary-500 rounded-xl p-6">
                 <div className="flex items-center gap-2 mb-2">
-                  <TrendingUp className="w-4 h-4 text-black" />
-                  <span className="text-sm text-black font-semibold">Projected Repeat Revenue</span>
+                  <TrendingUp className="w-4 h-4 text-gray-900" />
+                  <span className="text-sm text-gray-900 font-semibold">Projected Repeat Revenue</span>
                 </div>
-                <div className="text-2xl font-heading font-bold text-black">
+                <div className="text-2xl font-heading font-bold text-gray-900">
                   {formatCurrency(calculations.projectedRepeatRevenue)}/mo
                 </div>
-                <div className="mt-2 text-sm text-black/70">
+                <div className="mt-2 text-sm text-gray-900/70">
                   At {calculations.targetRepeatRate}% repeat rate
                 </div>
               </div>
@@ -122,7 +122,7 @@ export default function ROICalculator() {
                   href="https://calendly.com/hi-retentionos/30min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full py-4 text-center bg-gray-900 text-white font-semibold rounded-full hover:bg-gray-800 transition-all duration-300 hover:scale-105"
+                  className="block w-full py-4 text-center bg-primary-500 text-white font-semibold rounded-full hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300 hover:scale-105"
                 >
                   Book Free Audit to Unlock This Revenue
                 </a>

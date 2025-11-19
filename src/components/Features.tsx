@@ -60,7 +60,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block mb-6">
-            <div className="inline-flex items-center px-6 py-3 bg-primary-500 text-accent-black font-bold text-lg rounded-lg transform -rotate-1">
+            <div className="inline-flex items-center px-6 py-3 bg-gray-900 text-white font-bold text-lg rounded-lg transform -rotate-1">
               WHAT WE OFFER
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Features() {
             href="https://calendly.com/hi-retentionos/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-primary-500 text-accent-black font-semibold rounded-full hover:bg-primary-600 transition-all duration-300 hover:scale-105"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-primary-500 text-white font-semibold rounded-full hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300 hover:scale-105"
           >
             Book a Call
           </a>
@@ -101,7 +101,7 @@ export default function Features() {
                       href="https://calendly.com/hi-retentionos/30min"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center px-8 py-3.5 bg-primary-500 text-accent-black font-bold rounded-full hover:bg-primary-600 transition-all duration-300 hover:scale-105 shadow-md"
+                      className="inline-flex items-center justify-center px-8 py-3.5 bg-primary-500 text-white font-bold rounded-full hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300 hover:scale-105 shadow-md"
                     >
                       Book a Call
                     </a>

@@ -97,7 +97,7 @@ export default function PricingSection() {
             >
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <span className="bg-primary-500 text-black px-4 py-1 rounded-full text-sm font-bold">
+                  <span className="bg-primary-500 text-white px-4 py-1 rounded-full text-sm font-bold">
                     Most Popular
                   </span>
                 </div>
@@ -122,10 +122,10 @@ export default function PricingSection() {
                 href="https://calendly.com/hi-retentionos/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`w-full py-3 rounded-full font-semibold transition-all duration-300 mb-6 flex items-center justify-center gap-2 group ${
+                className={`w-full py-3 rounded-full font-semibold transition-all duration-300 mb-6 flex items-center justify-center gap-2 group hover:scale-105 ${
                   plan.popular
-                    ? 'bg-primary-500 text-black hover:bg-primary-600'
-                    : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
+                    ? 'bg-primary-500 text-white hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30'
+                    : 'bg-gray-900 text-white hover:bg-gray-800'
                 }`}
               >
                 {plan.ctaText}
