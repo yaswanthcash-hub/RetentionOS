@@ -1,14 +1,7 @@
-import { useState } from 'react';
-import { X } from 'lucide-react';
-
 export default function StickyBanner() {
-  const [isVisible, setIsVisible] = useState(true);
-
-  if (!isVisible) return null;
-
   return (
     <div className="fixed top-0 left-0 right-0 z-[60] bg-black text-white overflow-hidden">
-      <div className="relative flex items-center py-3">
+      <div className="flex items-center py-3">
         <div className="animate-scroll flex items-center whitespace-nowrap">
           <span className="inline-flex items-center px-8">
             <span className="font-bold">Limited Time Offer:</span>
@@ -50,13 +43,6 @@ export default function StickyBanner() {
             </a>
           </span>
         </div>
-        <button
-          onClick={() => setIsVisible(false)}
-          className="absolute right-4 p-1 hover:bg-white/10 rounded-full transition-colors z-10"
-          aria-label="Close banner"
-        >
-          <X className="w-4 h-4" />
-        </button>
       </div>
     </div>
   );
