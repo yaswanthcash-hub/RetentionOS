@@ -124,7 +124,7 @@ export default function PricingSection() {
                 rel="noopener noreferrer"
                 className={`w-full py-3 rounded-full font-semibold transition-all duration-300 mb-6 flex items-center justify-center gap-2 group hover:scale-105 ${
                   plan.popular
-                    ? 'bg-primary-500 text-white hover:bg-primary-600 hover:shadow-lg hover:shadow-primary-500/30'
+                    ? 'bg-gradient-to-r from-[#2dd4bf] to-[#1e3a5f] text-white hover:from-[#26b8a5] hover:to-[#172e4a] hover:shadow-lg hover:shadow-teal-500/30'
                     : 'bg-gray-900 text-white hover:bg-gray-800'
                 }`}
               >

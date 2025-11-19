@@ -23,7 +23,7 @@ export default function Hero() {
           href="https://calendly.com/hi-retentionos/30min"
           target="_blank"
           rel="noopener noreferrer"
-          className="group inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-primary-500 text-white text-base sm:text-lg font-semibold rounded-full hover:bg-primary-600 hover:shadow-2xl hover:shadow-primary-500/30 transition-all duration-300 shadow-lg hover:scale-105 animate-fade-in-up"
+          className="group inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-[#2dd4bf] to-[#1e3a5f] text-white text-base sm:text-lg font-semibold rounded-full hover:from-[#26b8a5] hover:to-[#172e4a] hover:shadow-2xl hover:shadow-teal-500/30 transition-all duration-300 shadow-lg hover:scale-105 animate-fade-in-up"
         >
           Get Your Free Retention Audit
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
