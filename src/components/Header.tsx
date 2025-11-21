@@ -68,7 +68,7 @@ export default function Header() {
               href="https://calendly.com/hi-retentionos/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-gradient-to-r from-[#2dd4bf] to-[#1e3a5f] text-white font-semibold rounded-full hover:from-[#26b8a5] hover:to-[#172e4a] hover:shadow-lg hover:shadow-teal-500/30 transition-all duration-300 hover:scale-105 inline-block"
+              className="px-6 py-3 bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105 inline-block"
             >
               Book Free Audit
             </a>
@@ -105,7 +105,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
-              className="w-full px-6 py-3 bg-gradient-to-r from-[#2dd4bf] to-[#1e3a5f] text-white font-semibold rounded-full hover:from-[#26b8a5] hover:to-[#172e4a] hover:shadow-lg hover:shadow-teal-500/30 transition-all duration-300 hover:scale-105 inline-block text-center"
+              className="w-full px-6 py-3 bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105 inline-block text-center"
             >
               Book Free Audit
             </a>

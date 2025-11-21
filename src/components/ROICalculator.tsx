@@ -122,7 +122,7 @@ export default function ROICalculator() {
                   href="https://calendly.com/hi-retentionos/30min"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full py-4 text-center bg-gradient-to-r from-[#2dd4bf] to-[#1e3a5f] text-white font-semibold rounded-full hover:from-[#26b8a5] hover:to-[#172e4a] hover:shadow-lg hover:shadow-teal-500/30 transition-all duration-300 hover:scale-105"
+                  className="block w-full py-4 text-center bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105"
                 >
                   Book Free Audit to Unlock This Revenue
                 </a>

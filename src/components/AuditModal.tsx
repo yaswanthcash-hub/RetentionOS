@@ -219,7 +219,7 @@ export default function AuditModal({ isOpen, onClose }: AuditModalProps) {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full py-4 bg-gradient-to-r from-[#2dd4bf] to-[#1e3a5f] text-white font-semibold rounded-lg hover:from-[#26b8a5] hover:to-[#172e4a] hover:shadow-2xl hover:shadow-teal-500/30 hover:scale-105 transition-all duration-300 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full py-4 bg-black text-[#D1F26E] font-semibold rounded-lg hover:bg-[#D1F26E] hover:text-black hover:shadow-2xl hover:shadow-[#D1F26E]/20 hover:scale-105 transition-all duration-300 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? 'Submitting...' : 'Book My Free Audit'}
             </button>
