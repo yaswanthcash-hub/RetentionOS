@@ -42,7 +42,7 @@ export default function FinalCTA() {
           <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
         </a>
 
-        <div className="flex flex-col items-center justify-center gap-3 text-gray-300 mb-12">
+        <div className="flex items-center justify-center gap-6 text-gray-300 mb-12 flex-wrap">
           <div className="flex items-center gap-2">
             <Shield className="w-5 h-5 text-primary-400" />
             <span>We'll analyze your data</span>
