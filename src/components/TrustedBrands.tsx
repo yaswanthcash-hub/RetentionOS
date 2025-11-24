@@ -23,19 +23,35 @@ export default function TrustedBrands() {
           <div className="absolute left-0 top-0 bottom-0 w-20 sm:w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
           <div className="absolute right-0 top-0 bottom-0 w-20 sm:w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
 
-          <div className="brand-scroll-track flex items-center gap-12 sm:gap-16">
-            {[...brands, ...brands, ...brands].map((brand, index) => (
-              <div
-                key={index}
-                className="brand-scroll-item flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
-              >
-                <img
-                  src={brand.logo}
-                  alt={brand.name}
-                  className="h-8 sm:h-10 w-auto object-contain"
-                />
-              </div>
-            ))}
+          <div className="flex">
+            <div className="brand-scroll-track flex items-center gap-12 sm:gap-16">
+              {brands.map((brand, index) => (
+                <div
+                  key={`set1-${index}`}
+                  className="brand-scroll-item flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                >
+                  <img
+                    src={brand.logo}
+                    alt={brand.name}
+                    className="h-8 sm:h-10 w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
+            <div className="brand-scroll-track flex items-center gap-12 sm:gap-16">
+              {brands.map((brand, index) => (
+                <div
+                  key={`set2-${index}`}
+                  className="brand-scroll-item flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                >
+                  <img
+                    src={brand.logo}
+                    alt={brand.name}
+                    className="h-8 sm:h-10 w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -46,12 +62,12 @@ export default function TrustedBrands() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-33.333%);
+            transform: translateX(-100%);
           }
         }
 
         .brand-scroll-track {
-          animation: brandScroll 40s linear infinite;
+          animation: brandScroll 50s linear infinite;
           will-change: transform;
         }
 
@@ -69,7 +85,7 @@ export default function TrustedBrands() {
           }
 
           .brand-scroll-track {
-            animation-duration: 30s;
+            animation-duration: 40s;
           }
         }
       `}</style>
