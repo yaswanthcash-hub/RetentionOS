@@ -101,7 +101,7 @@ export default function FAQ() {
             Still have questions?
           </h3>
           <p className="text-gray-600 mb-6">
-            Book a free call with our team and we'll answer all your questions
+            Connect with our team and we'll answer all your questions
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

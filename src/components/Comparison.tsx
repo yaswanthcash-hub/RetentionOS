@@ -36,7 +36,7 @@ export default function Comparison() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105"
           >
-            Book a Call
+            Let's Connect ➡️
           </a>
         </div>
 

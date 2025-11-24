@@ -76,7 +76,7 @@ export default function Features() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105"
           >
-            Book a Call
+            Let's Connect ➡️
           </a>
         </div>
 
@@ -94,7 +94,7 @@ export default function Features() {
                     </h3>
 
                     <p className="text-gray-700 leading-relaxed mb-6">
-                      Let's get started – book your call today!
+                      Let's get started and grow together!
                     </p>
 
                     <a
@@ -103,7 +103,7 @@ export default function Features() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-8 py-3.5 bg-black text-[#D1F26E] font-bold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105 shadow-md"
                     >
-                      Book a Call
+                      Let's Connect ➡️
                     </a>
                   </div>
                 </div>

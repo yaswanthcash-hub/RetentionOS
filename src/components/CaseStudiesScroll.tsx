@@ -184,7 +184,7 @@ export default function CaseStudiesScroll() {
               Want to see similar results for your brand?
             </p>
             <p className="text-gray-300 mb-6 text-sm">
-              Get a free retention audit and discover where you're leaving money on the table
+              Discover where you're leaving money on the table
             </p>
             <a
               href="https://calendly.com/hi-retentionos/30min"
@@ -192,7 +192,7 @@ export default function CaseStudiesScroll() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105"
             >
-              Book Your Free Audit
+              Let's Connect ➡️
             </a>
           </div>
         </div>

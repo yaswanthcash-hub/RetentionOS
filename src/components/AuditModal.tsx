@@ -93,8 +93,8 @@ export default function AuditModal({ isOpen, onClose }: AuditModalProps) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Thanks for booking!</h3>
-            <p className="text-gray-600">We'll reach out within 24 hours to schedule your free audit.</p>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">Thanks for connecting!</h3>
+            <p className="text-gray-600">We'll reach out within 24 hours to schedule a call.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="p-6 space-y-6">

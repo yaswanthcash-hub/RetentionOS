@@ -6,7 +6,7 @@ export default function StickyBanner() {
           <span className="inline-flex items-center px-8">
             <span className="font-bold">Limited Time Offer:</span>
             <span className="mx-2">•</span>
-            <span>Get 20% off your first 3 months + Free Retention Audit</span>
+            <span>Get 20% off your first 3 months when you connect with us</span>
             <a
               href="https://calendly.com/hi-retentionos/30min"
               target="_blank"
@@ -19,7 +19,7 @@ export default function StickyBanner() {
           <span className="inline-flex items-center px-8">
             <span className="font-bold">Limited Time Offer:</span>
             <span className="mx-2">•</span>
-            <span>Get 20% off your first 3 months + Free Retention Audit</span>
+            <span>Get 20% off your first 3 months when you connect with us</span>
             <a
               href="https://calendly.com/hi-retentionos/30min"
               target="_blank"
@@ -32,7 +32,7 @@ export default function StickyBanner() {
           <span className="inline-flex items-center px-8">
             <span className="font-bold">Limited Time Offer:</span>
             <span className="mx-2">•</span>
-            <span>Get 20% off your first 3 months + Free Retention Audit</span>
+            <span>Get 20% off your first 3 months when you connect with us</span>
             <a
               href="https://calendly.com/hi-retentionos/30min"
               target="_blank"
