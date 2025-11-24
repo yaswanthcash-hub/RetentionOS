@@ -56,11 +56,6 @@ function App() {
         company="Nykaa"
       />
       <FAQ />
-      <FounderInsight
-        quote="Customer loyalty is earned through clarity, curation and consistent experience — not just ads."
-        founderName="Manasa, Co-founder at"
-        company="Kindlife"
-      />
       <FinalCTA />
       <FounderInsight
         quote="Repeat customers are earned through trust — you must build product and experience that keeps them coming back."

@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
             <div className="mb-4">
-              <img src="/Group 1430105540.png" alt="RetentionOS" className="h-12" />
+              <img src="/Group 1430105721.png" alt="RetentionOS" className="h-12" />
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Turn first-time buyers into lifelong customers with retention marketing that drives repeat revenue for Indian D2C brands.
