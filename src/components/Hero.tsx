@@ -26,8 +26,7 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-black text-[#D1F26E] text-base sm:text-lg font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-2xl hover:shadow-[#D1F26E]/20 transition-all duration-300 shadow-lg hover:scale-105 animate-fade-in-up"
         >
-          Get Your Free Retention Audit
-          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          Let's Connect ➡️
         </a>
 
 

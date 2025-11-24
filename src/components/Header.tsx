@@ -69,7 +69,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="px-6 py-3 bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105 inline-block"
             >
-              Book Free Audit
+              Let's Connect ➡️
             </a>
           </div>
 
@@ -106,7 +106,7 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
               className="w-full px-6 py-3 bg-black text-[#D1F26E] font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black hover:shadow-lg hover:shadow-[#D1F26E]/20 transition-all duration-300 hover:scale-105 inline-block text-center"
             >
-              Book Free Audit
+              Let's Connect ➡️
             </a>
           </nav>
         </div>

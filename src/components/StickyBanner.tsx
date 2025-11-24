@@ -13,7 +13,7 @@ export default function StickyBanner() {
               rel="noopener noreferrer"
               className="ml-3 text-primary-500 hover:text-primary-400 transition-colors font-semibold"
             >
-              Claim Now →
+              Let's Connect ➡️
             </a>
           </span>
           <span className="inline-flex items-center px-8">
@@ -26,7 +26,7 @@ export default function StickyBanner() {
               rel="noopener noreferrer"
               className="ml-3 text-primary-500 hover:text-primary-400 transition-colors font-semibold"
             >
-              Claim Now →
+              Let's Connect ➡️
             </a>
           </span>
           <span className="inline-flex items-center px-8">
@@ -39,7 +39,7 @@ export default function StickyBanner() {
               rel="noopener noreferrer"
               className="ml-3 text-primary-500 hover:text-primary-400 transition-colors font-semibold"
             >
-              Claim Now →
+              Let's Connect ➡️
             </a>
           </span>
         </div>

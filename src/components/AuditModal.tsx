@@ -75,7 +75,7 @@ export default function AuditModal({ isOpen, onClose }: AuditModalProps) {
       <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl animate-scale-in">
         <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex items-center justify-between rounded-t-2xl">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900">Book Your Free Audit</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Let's Connect</h2>
             <p className="text-gray-600 mt-1">Takes less than 2 minutes</p>
           </div>
           <button
@@ -221,7 +221,7 @@ export default function AuditModal({ isOpen, onClose }: AuditModalProps) {
               disabled={isSubmitting}
               className="w-full py-4 bg-black text-[#D1F26E] font-semibold rounded-lg hover:bg-[#D1F26E] hover:text-black hover:shadow-2xl hover:shadow-[#D1F26E]/20 hover:scale-105 transition-all duration-300 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {isSubmitting ? 'Submitting...' : 'Book My Free Audit'}
+              {isSubmitting ? 'Submitting...' : 'Let\'s Connect ➡️'}
             </button>
 
             <p className="text-xs text-gray-500 text-center">
