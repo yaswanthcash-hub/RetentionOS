@@ -15,15 +15,21 @@ export default function FinalCTA() {
         </div>
 
         <h2 className="text-4xl md:text-6xl font-heading font-bold text-white mb-6 leading-tight">
-          Ready to Stop{' '}
+          Ready to{' '}
           <span className="text-primary-400">
-            Losing Customers
+            Partner Up
           </span>
           ?
         </h2>
 
-        <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Book a free retention audit. We'll show you exactly where you're leaving money on the table—and how to fix it in 90 days.
+        <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <span className="block mb-2">Right now, your customers are leaving.</span>
+          <span className="block mb-2">Right now, revenue is bleeding.</span>
+          <span className="block mb-2">Right now, competitors are fixing this.</span>
+        </p>
+
+        <p className="text-2xl font-semibold text-white mb-12 max-w-3xl mx-auto">
+          We can stop it. Together.
         </p>
 
         <a
@@ -32,14 +38,14 @@ export default function FinalCTA() {
           rel="noopener noreferrer"
           className="group inline-flex items-center gap-3 px-10 py-5 bg-black text-[#D1F26E] text-lg font-semibold rounded-full hover:bg-[#D1F26E] hover:text-black transition-all duration-300 shadow-2xl hover:shadow-[#D1F26E]/20 hover:scale-105 mb-8"
         >
-          Book Your Free Audit
+          Let's Connect
           <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
         </a>
 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-gray-300 mb-16">
+        <div className="flex flex-col items-center justify-center gap-3 text-gray-300 mb-12">
           <div className="flex items-center gap-2">
             <Shield className="w-5 h-5 text-primary-400" />
-            <span>We\'ll analyze your data</span>
+            <span>We'll analyze your data</span>
           </div>
           <div className="flex items-center gap-2">
             <Zap className="w-5 h-5 text-emerald-400" />
@@ -51,7 +57,14 @@ export default function FinalCTA() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="text-center mb-16 max-w-2xl mx-auto">
+          <p className="text-gray-400 mb-2">No sales calls until you're ready.</p>
+          <p className="text-gray-400 mb-2">No pressure. No games.</p>
+          <p className="text-gray-400 mb-6">Just honest evaluation of partnership fit.</p>
+          <p className="text-xl font-semibold text-white">Let's fix your retention.<br />Together.</p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
           <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 hover:bg-white/10 transition-all">
             <div className="text-3xl font-heading font-bold text-white mb-2">₹0</div>
             <div className="text-gray-400 text-sm">Setup fees or upfront costs</div>
@@ -66,7 +79,7 @@ export default function FinalCTA() {
           </div>
         </div>
 
-        <div className="mt-16 pt-12 border-t border-white/10">
+        <div className="pt-12 border-t border-white/10">
           <p className="text-gray-400 mb-4">Still have questions?</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
