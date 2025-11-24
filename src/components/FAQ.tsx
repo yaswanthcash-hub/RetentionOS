@@ -52,13 +52,13 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-16 bg-black">
+    <section id="faq" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-2">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-2">
             The Questions Everyone Asks
           </h2>
-          <p className="text-base text-gray-400">
+          <p className="text-base text-gray-600">
             (And our honest answers)
           </p>
         </div>
@@ -67,7 +67,7 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg border border-gray-200 overflow-hidden transition-all duration-200 hover:border-[#D1F26E]"
+              className="bg-gray-50 rounded-lg border border-gray-200 overflow-hidden transition-all duration-200 hover:border-[#D1F26E] hover:bg-white"
             >
               <button
                 onClick={() => toggleFAQ(index)}
@@ -96,7 +96,7 @@ export default function FAQ() {
           ))}
         </div>
 
-        <div className="max-w-3xl mx-auto text-center p-6 bg-gradient-to-br from-[#D1F26E]/10 to-transparent rounded-xl border border-[#D1F26E]/30">
+        <div className="max-w-3xl mx-auto text-center p-6 bg-gray-900 rounded-xl">
           <h3 className="text-lg font-heading font-bold text-white mb-1">
             Still have questions?
           </h3>
@@ -106,7 +106,7 @@ export default function FAQ() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
               href="mailto:hi@retentionos.io"
-              className="inline-flex items-center gap-2 px-5 py-2 bg-white/10 text-white rounded-full hover:bg-white/20 transition-colors font-semibold text-sm border border-white/20"
+              className="inline-flex items-center gap-2 px-5 py-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors font-semibold text-sm border border-gray-700"
             >
               <Mail className="w-4 h-4" />
               Email Us
