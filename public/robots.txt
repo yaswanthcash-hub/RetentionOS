@@ -1,0 +1,10 @@
+# robots.txt for RetentionOS
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Disallow admin pages (if any in future)
+# Disallow: /admin/
