@@ -11,8 +11,6 @@ export default function StickyBanner() {
                 <span className="w-1.5 h-1.5 bg-[#D1F26E] rounded-full animate-pulse"></span>
                 <span className="font-bold text-[#D1F26E] text-xs">⚠️ Only 3 Partnership Slots Left This Month</span>
               </span>
-              <span className="text-gray-400">•</span>
-              <span className="text-gray-300">Limited Time Offer: Get 20% off your first 3 months</span>
               <a
                 href="https://calendly.com/hi-retentionos/30min"
                 target="_blank"
@@ -28,8 +26,6 @@ export default function StickyBanner() {
                 <span className="w-1.5 h-1.5 bg-[#D1F26E] rounded-full animate-pulse"></span>
                 <span className="font-bold text-[#D1F26E] text-xs">⚠️ Only 3 Partnership Slots Left This Month</span>
               </span>
-              <span className="text-gray-400">•</span>
-              <span className="text-gray-300">Limited Time Offer: Get 20% off your first 3 months</span>
               <a
                 href="https://calendly.com/hi-retentionos/30min"
                 target="_blank"
@@ -45,8 +41,6 @@ export default function StickyBanner() {
                 <span className="w-1.5 h-1.5 bg-[#D1F26E] rounded-full animate-pulse"></span>
                 <span className="font-bold text-[#D1F26E] text-xs">⚠️ Only 3 Partnership Slots Left This Month</span>
               </span>
-              <span className="text-gray-400">•</span>
-              <span className="text-gray-300">Limited Time Offer: Get 20% off your first 3 months</span>
               <a
                 href="https://calendly.com/hi-retentionos/30min"
                 target="_blank"
@@ -62,8 +56,6 @@ export default function StickyBanner() {
                 <span className="w-1.5 h-1.5 bg-[#D1F26E] rounded-full animate-pulse"></span>
                 <span className="font-bold text-[#D1F26E] text-xs">⚠️ Only 3 Partnership Slots Left This Month</span>
               </span>
-              <span className="text-gray-400">•</span>
-              <span className="text-gray-300">Limited Time Offer: Get 20% off your first 3 months</span>
               <a
                 href="https://calendly.com/hi-retentionos/30min"
                 target="_blank"
