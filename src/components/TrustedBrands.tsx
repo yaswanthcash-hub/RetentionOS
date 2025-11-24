@@ -6,6 +6,10 @@ export default function TrustedBrands() {
     { name: 'Zoho CRM', logo: '/zoho-logo.svg' },
     { name: 'HubSpot', logo: '/hubspot-logo.svg' },
     { name: 'AiSensy', logo: '/aisency-logo.svg' },
+    { name: 'Growth School', logo: '/growthschool-logo.svg' },
+    { name: 'cure.fit', logo: '/curefit-logo.svg' },
+    { name: 'Build School', logo: '/buildschool-logo.svg' },
+    { name: 'Kairos', logo: '/kairos-logo.svg' },
   ];
 
   return (

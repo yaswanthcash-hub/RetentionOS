@@ -1,0 +1,6 @@
+<svg viewBox="0 0 470 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="85" fill="#0F6D6A"/>
+  <path d="M95 50H205V150H95L145 100L95 50Z" fill="#5FE3A1"/>
+  <text x="220" y="130" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#000000">Growth</text>
+  <text x="220" y="180" font-family="Arial, sans-serif" font-size="60" fill="#000000">School</text>
+</svg>
