@@ -17,7 +17,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-base sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-10 md:mb-12 max-w-4xl mx-auto leading-relaxed animate-slide-up-delay">
-          <span className="font-semibold text-gray-900">Your customers stay. We both win.</span>
+          <span className="font-semibold text-gray-900">With a dedicated team of fractional retention leaders obsessed with maximizing your customer LTV</span>
         </p>
 
         <a
