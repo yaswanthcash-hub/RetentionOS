@@ -42,9 +42,20 @@ export default function FinalCTA() {
           <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
         </a>
 
-        <p className="text-gray-300 mb-12">
-          We'll analyze your data, Identify revenue leaks, Show the 90-day fix
-        </p>
+        <div className="flex flex-col items-center justify-center gap-3 text-gray-300 mb-12">
+          <div className="flex items-center gap-2">
+            <Shield className="w-5 h-5 text-primary-400" />
+            <span>We'll analyze your data</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Zap className="w-5 h-5 text-emerald-400" />
+            <span>Identify revenue leaks</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Clock className="w-5 h-5 text-emerald-400" />
+            <span>Show the 90-day fix</span>
+          </div>
+        </div>
 
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <p className="text-gray-400 mb-2">No sales calls until you're ready.</p>
