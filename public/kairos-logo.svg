@@ -1,8 +1,0 @@
-<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="#2C3E5E"/>
-  <path d="M100 50C75 50 60 65 60 90C60 115 75 130 100 130C100 115 85 115 85 90C85 75 90 70 100 70V50Z" fill="white"/>
-  <path d="M100 70C115 70 120 75 120 90C120 115 105 115 105 130C130 130 145 115 145 90C145 65 130 50 105 50L100 70Z" fill="white"/>
-  <path d="M100 90C100 102 92 110 80 110C80 98 88 90 100 90Z" fill="white"/>
-  <path d="M105 90C105 102 113 110 125 110C125 98 117 90 105 90Z" fill="white"/>
-  <text x="100" y="175" font-family="Arial, sans-serif" font-size="32" font-weight="600" fill="white" text-anchor="middle">Kairos</text>
-</svg>

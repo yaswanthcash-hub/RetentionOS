@@ -1,6 +1,0 @@
-<svg viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="200" fill="#4338FF"/>
-  <path d="M70 90L90 70L110 90" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <circle cx="90" cy="55" r="6" fill="white"/>
-  <text x="130" y="115" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">Build School</text>
-</svg>
