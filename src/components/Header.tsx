@@ -19,7 +19,6 @@ export default function Header() {
     { label: 'How it works', href: '#how-it-works' },
     { label: 'Case studies', href: '#case-studies' },
     { label: 'Results', href: '#results' },
-    { label: 'ROI calculator', href: '#roi-calculator' },
     { label: 'FAQ', href: '#faq' },
   ];
 

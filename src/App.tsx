@@ -10,7 +10,6 @@ import HowItWorks from './components/HowItWorks';
 import TrustedBrands from './components/TrustedBrands';
 import CaseStudiesScroll from './components/CaseStudiesScroll';
 import ResultsAchieved from './components/ResultsAchieved';
-import ROICalculator from './components/ROICalculator';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
@@ -51,7 +50,6 @@ function App() {
         company="Recode Studios"
       />
       <ResultsAchieved />
-      <ROICalculator />
       <FounderInsight
         quote="66% of our fashion GMV is coming from repeat customers."
         founderName="Falguni Nayar, Founder & CEO at"
