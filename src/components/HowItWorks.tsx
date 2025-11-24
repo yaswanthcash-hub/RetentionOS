@@ -116,6 +116,7 @@ export default function HowItWorks() {
       id="how-it-works"
       className="relative py-12 md:py-16 bg-black overflow-hidden"
     >
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:64px_64px]"></div>
 
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#D1F26E] to-transparent"></div>
 
