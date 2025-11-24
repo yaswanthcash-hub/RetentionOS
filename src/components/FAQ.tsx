@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Mail, Phone } from 'lucide-react';
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -52,68 +52,70 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-24 bg-gray-50">
-      <div className="max-w-4xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
+    <section id="faq" className="py-16 bg-black">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-2">
             The Questions Everyone Asks
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-base text-gray-400">
             (And our honest answers)
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className="grid md:grid-cols-2 gap-3 mb-8">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-md"
+              className="bg-white rounded-lg border border-gray-200 overflow-hidden transition-all duration-200 hover:border-[#D1F26E]"
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-6 py-5 flex items-center justify-between text-left"
+                className="w-full px-5 py-3.5 flex items-start justify-between text-left group"
               >
-                <span className="font-heading font-bold text-gray-900 pr-8">
+                <span className="font-bold text-gray-900 pr-4 text-sm leading-snug group-hover:text-[#D1F26E] transition-colors">
                   {faq.question}
                 </span>
                 <ChevronDown
-                  className={`w-5 h-5 text-primary-700 flex-shrink-0 transition-transform duration-300 ${
-                    openIndex === index ? 'rotate-180' : ''
+                  className={`w-4 h-4 text-gray-400 flex-shrink-0 transition-transform duration-200 mt-0.5 ${
+                    openIndex === index ? 'rotate-180 text-[#D1F26E]' : ''
                   }`}
                 />
               </button>
 
               <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? 'max-h-96' : 'max-h-0'
+                className={`overflow-hidden transition-all duration-200 ${
+                  openIndex === index ? 'max-h-80' : 'max-h-0'
                 }`}
               >
-                <div className="px-6 pb-5">
-                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                <div className="px-5 pb-4 pt-0">
+                  <p className="text-gray-600 text-sm leading-relaxed">{faq.answer}</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-12 text-center p-8 bg-white rounded-2xl border border-gray-200">
-          <h3 className="text-xl font-heading font-bold text-gray-900 mb-2">
+        <div className="max-w-3xl mx-auto text-center p-6 bg-gradient-to-br from-[#D1F26E]/10 to-transparent rounded-xl border border-[#D1F26E]/30">
+          <h3 className="text-lg font-heading font-bold text-white mb-1">
             Still have questions?
           </h3>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-400 text-sm mb-4">
             Connect with our team and we'll answer all your questions
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <a
               href="mailto:hi@retentionos.io"
-              className="px-6 py-3 bg-gray-100 text-gray-900 rounded-full hover:bg-gray-200 transition-colors font-semibold"
+              className="inline-flex items-center gap-2 px-5 py-2 bg-white/10 text-white rounded-full hover:bg-white/20 transition-colors font-semibold text-sm border border-white/20"
             >
+              <Mail className="w-4 h-4" />
               Email Us
             </a>
             <a
               href="tel:+919505551760"
-              className="px-6 py-3 bg-primary-500 text-black rounded-full hover:bg-primary-600 transition-colors font-semibold"
+              className="inline-flex items-center gap-2 px-5 py-2 bg-[#D1F26E] text-black rounded-full hover:bg-white transition-colors font-black text-sm"
             >
+              <Phone className="w-4 h-4" />
               Call +91 95055 51760
             </a>
           </div>
